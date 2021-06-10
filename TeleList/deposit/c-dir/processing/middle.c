@@ -50,7 +50,7 @@ void running() {
                 break;
 
             case 7:
-                sort_link_man;
+                sort_link_man(&sta);
                 break;
 
             case 0:

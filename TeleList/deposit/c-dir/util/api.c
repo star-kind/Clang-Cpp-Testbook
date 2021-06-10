@@ -213,7 +213,7 @@ void Empty_link_man(Statis *p) {
 }
 
 /**
- * 以名字排序联系人,冒泡;[此功能未生效]
+ * 以名字排序联系人,冒泡;
  * @param p
  */
 void sort_link_man(Statis *p) {
