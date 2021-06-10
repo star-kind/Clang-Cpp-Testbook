@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/admin/workspace/c_cpp/TeleList/./deposit/head-dir/link_man.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/processing/middle.c
+../../../functions.h
+/home/user/admin/workspace/c_cpp/TeleList/functions.h
+
+/home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/util/api.c
+../../head-dir/link_man.h
+/home/user/admin/workspace/c_cpp/TeleList/deposit/head-dir/link_man.h
+
+/home/user/admin/workspace/c_cpp/TeleList/deposit/head-dir/link_man.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/home/user/admin/workspace/c_cpp/TeleList/functions.h
+./deposit/head-dir/link_man.h
+/home/user/admin/workspace/c_cpp/TeleList/./deposit/head-dir/link_man.h
+
+/home/user/admin/workspace/c_cpp/TeleList/main.c
+functions.h
+/home/user/admin/workspace/c_cpp/TeleList/functions.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/TeleList.dir/main.c.o CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o  -o TeleList 
