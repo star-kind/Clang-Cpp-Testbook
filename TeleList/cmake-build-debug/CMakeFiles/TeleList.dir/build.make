@@ -81,66 +81,66 @@ CMakeFiles/TeleList.dir/main.c.o.provides: CMakeFiles/TeleList.dir/main.c.o.requ
 CMakeFiles/TeleList.dir/main.c.o.provides.build: CMakeFiles/TeleList.dir/main.c.o
 
 
-CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o: CMakeFiles/TeleList.dir/flags.make
-CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o: ../deposit/c-dir/processing/middle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/TeleList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o   -c /home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/processing/middle.c
+CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o: CMakeFiles/TeleList.dir/flags.make
+CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o: ../src/c-dir/processing/middle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/TeleList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o   -c /home/user/admin/workspace/c_cpp/TeleList/src/c-dir/processing/middle.c
 
-CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/processing/middle.c > CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.i
+CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/TeleList/src/c-dir/processing/middle.c > CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.i
 
-CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/processing/middle.c -o CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.s
+CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/TeleList/src/c-dir/processing/middle.c -o CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.s
 
-CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o.requires:
+CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o.requires:
 
-.PHONY : CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o.requires
+.PHONY : CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o.requires
 
-CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o.provides: CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o.requires
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o.provides.build
-.PHONY : CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o.provides
+CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o.provides: CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o.requires
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o.provides.build
+.PHONY : CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o.provides
 
-CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o.provides.build: CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o
+CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o.provides.build: CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o
 
 
-CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o: CMakeFiles/TeleList.dir/flags.make
-CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o: ../deposit/c-dir/util/api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/TeleList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o   -c /home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/util/api.c
+CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o: CMakeFiles/TeleList.dir/flags.make
+CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o: ../src/c-dir/util/api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/TeleList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o   -c /home/user/admin/workspace/c_cpp/TeleList/src/c-dir/util/api.c
 
-CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/util/api.c > CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.i
+CMakeFiles/TeleList.dir/src/c-dir/util/api.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TeleList.dir/src/c-dir/util/api.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/TeleList/src/c-dir/util/api.c > CMakeFiles/TeleList.dir/src/c-dir/util/api.c.i
 
-CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/util/api.c -o CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.s
+CMakeFiles/TeleList.dir/src/c-dir/util/api.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TeleList.dir/src/c-dir/util/api.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/TeleList/src/c-dir/util/api.c -o CMakeFiles/TeleList.dir/src/c-dir/util/api.c.s
 
-CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o.requires:
+CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o.requires:
 
-.PHONY : CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o.requires
+.PHONY : CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o.requires
 
-CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o.provides: CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o.requires
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o.provides.build
-.PHONY : CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o.provides
+CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o.provides: CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o.requires
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o.provides.build
+.PHONY : CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o.provides
 
-CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o.provides.build: CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o
+CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o.provides.build: CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o
 
 
 # Object files for target TeleList
 TeleList_OBJECTS = \
 "CMakeFiles/TeleList.dir/main.c.o" \
-"CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o" \
-"CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o"
+"CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o" \
+"CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o"
 
 # External object files for target TeleList
 TeleList_EXTERNAL_OBJECTS =
 
 TeleList: CMakeFiles/TeleList.dir/main.c.o
-TeleList: CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o
-TeleList: CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o
+TeleList: CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o
+TeleList: CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o
 TeleList: CMakeFiles/TeleList.dir/build.make
 TeleList: CMakeFiles/TeleList.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/admin/workspace/c_cpp/TeleList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable TeleList"
@@ -152,8 +152,8 @@ CMakeFiles/TeleList.dir/build: TeleList
 .PHONY : CMakeFiles/TeleList.dir/build
 
 CMakeFiles/TeleList.dir/requires: CMakeFiles/TeleList.dir/main.c.o.requires
-CMakeFiles/TeleList.dir/requires: CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o.requires
-CMakeFiles/TeleList.dir/requires: CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o.requires
+CMakeFiles/TeleList.dir/requires: CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o.requires
+CMakeFiles/TeleList.dir/requires: CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o.requires
 
 .PHONY : CMakeFiles/TeleList.dir/requires
 

@@ -123,60 +123,6 @@ TeleList/fast:
 	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/build
 .PHONY : TeleList/fast
 
-deposit/c-dir/processing/middle.o: deposit/c-dir/processing/middle.c.o
-
-.PHONY : deposit/c-dir/processing/middle.o
-
-# target to build an object file
-deposit/c-dir/processing/middle.c.o:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.o
-.PHONY : deposit/c-dir/processing/middle.c.o
-
-deposit/c-dir/processing/middle.i: deposit/c-dir/processing/middle.c.i
-
-.PHONY : deposit/c-dir/processing/middle.i
-
-# target to preprocess a source file
-deposit/c-dir/processing/middle.c.i:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.i
-.PHONY : deposit/c-dir/processing/middle.c.i
-
-deposit/c-dir/processing/middle.s: deposit/c-dir/processing/middle.c.s
-
-.PHONY : deposit/c-dir/processing/middle.s
-
-# target to generate assembly for a file
-deposit/c-dir/processing/middle.c.s:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/deposit/c-dir/processing/middle.c.s
-.PHONY : deposit/c-dir/processing/middle.c.s
-
-deposit/c-dir/util/api.o: deposit/c-dir/util/api.c.o
-
-.PHONY : deposit/c-dir/util/api.o
-
-# target to build an object file
-deposit/c-dir/util/api.c.o:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.o
-.PHONY : deposit/c-dir/util/api.c.o
-
-deposit/c-dir/util/api.i: deposit/c-dir/util/api.c.i
-
-.PHONY : deposit/c-dir/util/api.i
-
-# target to preprocess a source file
-deposit/c-dir/util/api.c.i:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.i
-.PHONY : deposit/c-dir/util/api.c.i
-
-deposit/c-dir/util/api.s: deposit/c-dir/util/api.c.s
-
-.PHONY : deposit/c-dir/util/api.s
-
-# target to generate assembly for a file
-deposit/c-dir/util/api.c.s:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/deposit/c-dir/util/api.c.s
-.PHONY : deposit/c-dir/util/api.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -204,6 +150,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/main.c.s
 .PHONY : main.c.s
 
+src/c-dir/processing/middle.o: src/c-dir/processing/middle.c.o
+
+.PHONY : src/c-dir/processing/middle.o
+
+# target to build an object file
+src/c-dir/processing/middle.c.o:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o
+.PHONY : src/c-dir/processing/middle.c.o
+
+src/c-dir/processing/middle.i: src/c-dir/processing/middle.c.i
+
+.PHONY : src/c-dir/processing/middle.i
+
+# target to preprocess a source file
+src/c-dir/processing/middle.c.i:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.i
+.PHONY : src/c-dir/processing/middle.c.i
+
+src/c-dir/processing/middle.s: src/c-dir/processing/middle.c.s
+
+.PHONY : src/c-dir/processing/middle.s
+
+# target to generate assembly for a file
+src/c-dir/processing/middle.c.s:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.s
+.PHONY : src/c-dir/processing/middle.c.s
+
+src/c-dir/util/api.o: src/c-dir/util/api.c.o
+
+.PHONY : src/c-dir/util/api.o
+
+# target to build an object file
+src/c-dir/util/api.c.o:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o
+.PHONY : src/c-dir/util/api.c.o
+
+src/c-dir/util/api.i: src/c-dir/util/api.c.i
+
+.PHONY : src/c-dir/util/api.i
+
+# target to preprocess a source file
+src/c-dir/util/api.c.i:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/util/api.c.i
+.PHONY : src/c-dir/util/api.c.i
+
+src/c-dir/util/api.s: src/c-dir/util/api.c.s
+
+.PHONY : src/c-dir/util/api.s
+
+# target to generate assembly for a file
+src/c-dir/util/api.c.s:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/util/api.c.s
+.PHONY : src/c-dir/util/api.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +213,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TeleList"
-	@echo "... deposit/c-dir/processing/middle.o"
-	@echo "... deposit/c-dir/processing/middle.i"
-	@echo "... deposit/c-dir/processing/middle.s"
-	@echo "... deposit/c-dir/util/api.o"
-	@echo "... deposit/c-dir/util/api.i"
-	@echo "... deposit/c-dir/util/api.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/c-dir/processing/middle.o"
+	@echo "... src/c-dir/processing/middle.i"
+	@echo "... src/c-dir/processing/middle.s"
+	@echo "... src/c-dir/util/api.o"
+	@echo "... src/c-dir/util/api.i"
+	@echo "... src/c-dir/util/api.s"
 .PHONY : help
 
 

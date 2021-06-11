@@ -76,19 +76,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/processing/middle.c">
-			<Option target="TeleList"/>
-		</Unit>
-		<Unit filename="/home/user/admin/workspace/c_cpp/TeleList/deposit/c-dir/util/api.c">
-			<Option target="TeleList"/>
-		</Unit>
-		<Unit filename="/home/user/admin/workspace/c_cpp/TeleList/deposit/head-dir/link_man.h">
-			<Option target="TeleList"/>
-		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/TeleList/functions.h">
 			<Option target="TeleList"/>
 		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/TeleList/main.c">
+			<Option target="TeleList"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/TeleList/src/c-dir/processing/middle.c">
+			<Option target="TeleList"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/TeleList/src/c-dir/util/api.c">
+			<Option target="TeleList"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/TeleList/src/head-dir/link_man.h">
 			<Option target="TeleList"/>
 		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/TeleList/CMakeLists.txt">

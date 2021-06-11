@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/DataBase.dir/main.c.o CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o  -o DataBase 
