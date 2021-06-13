@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/main.c.s
 .PHONY : main.c.s
 
+src/clanguage/AppendsData.o: src/clanguage/AppendsData.c.o
+
+.PHONY : src/clanguage/AppendsData.o
+
+# target to build an object file
+src/clanguage/AppendsData.c.o:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o
+.PHONY : src/clanguage/AppendsData.c.o
+
+src/clanguage/AppendsData.i: src/clanguage/AppendsData.c.i
+
+.PHONY : src/clanguage/AppendsData.i
+
+# target to preprocess a source file
+src/clanguage/AppendsData.c.i:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.i
+.PHONY : src/clanguage/AppendsData.c.i
+
+src/clanguage/AppendsData.s: src/clanguage/AppendsData.c.s
+
+.PHONY : src/clanguage/AppendsData.s
+
+# target to generate assembly for a file
+src/clanguage/AppendsData.c.s:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.s
+.PHONY : src/clanguage/AppendsData.c.s
+
 src/clanguage/CreateDB.o: src/clanguage/CreateDB.c.o
 
 .PHONY : src/clanguage/CreateDB.o
@@ -177,6 +204,87 @@ src/clanguage/CreateDB.c.s:
 	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.s
 .PHONY : src/clanguage/CreateDB.c.s
 
+src/clanguage/DeleteDB.o: src/clanguage/DeleteDB.c.o
+
+.PHONY : src/clanguage/DeleteDB.o
+
+# target to build an object file
+src/clanguage/DeleteDB.c.o:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o
+.PHONY : src/clanguage/DeleteDB.c.o
+
+src/clanguage/DeleteDB.i: src/clanguage/DeleteDB.c.i
+
+.PHONY : src/clanguage/DeleteDB.i
+
+# target to preprocess a source file
+src/clanguage/DeleteDB.c.i:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.i
+.PHONY : src/clanguage/DeleteDB.c.i
+
+src/clanguage/DeleteDB.s: src/clanguage/DeleteDB.c.s
+
+.PHONY : src/clanguage/DeleteDB.s
+
+# target to generate assembly for a file
+src/clanguage/DeleteDB.c.s:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.s
+.PHONY : src/clanguage/DeleteDB.c.s
+
+src/clanguage/DisplayDB.o: src/clanguage/DisplayDB.c.o
+
+.PHONY : src/clanguage/DisplayDB.o
+
+# target to build an object file
+src/clanguage/DisplayDB.c.o:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o
+.PHONY : src/clanguage/DisplayDB.c.o
+
+src/clanguage/DisplayDB.i: src/clanguage/DisplayDB.c.i
+
+.PHONY : src/clanguage/DisplayDB.i
+
+# target to preprocess a source file
+src/clanguage/DisplayDB.c.i:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.i
+.PHONY : src/clanguage/DisplayDB.c.i
+
+src/clanguage/DisplayDB.s: src/clanguage/DisplayDB.c.s
+
+.PHONY : src/clanguage/DisplayDB.s
+
+# target to generate assembly for a file
+src/clanguage/DisplayDB.c.s:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.s
+.PHONY : src/clanguage/DisplayDB.c.s
+
+src/clanguage/DisplayPointsRecord.o: src/clanguage/DisplayPointsRecord.c.o
+
+.PHONY : src/clanguage/DisplayPointsRecord.o
+
+# target to build an object file
+src/clanguage/DisplayPointsRecord.c.o:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o
+.PHONY : src/clanguage/DisplayPointsRecord.c.o
+
+src/clanguage/DisplayPointsRecord.i: src/clanguage/DisplayPointsRecord.c.i
+
+.PHONY : src/clanguage/DisplayPointsRecord.i
+
+# target to preprocess a source file
+src/clanguage/DisplayPointsRecord.c.i:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.i
+.PHONY : src/clanguage/DisplayPointsRecord.c.i
+
+src/clanguage/DisplayPointsRecord.s: src/clanguage/DisplayPointsRecord.c.s
+
+.PHONY : src/clanguage/DisplayPointsRecord.s
+
+# target to generate assembly for a file
+src/clanguage/DisplayPointsRecord.c.s:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.s
+.PHONY : src/clanguage/DisplayPointsRecord.c.s
+
 src/clanguage/HelpDoc.o: src/clanguage/HelpDoc.c.o
 
 .PHONY : src/clanguage/HelpDoc.o
@@ -203,6 +311,60 @@ src/clanguage/HelpDoc.s: src/clanguage/HelpDoc.c.s
 src/clanguage/HelpDoc.c.s:
 	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.s
 .PHONY : src/clanguage/HelpDoc.c.s
+
+src/clanguage/LocateDB.o: src/clanguage/LocateDB.c.o
+
+.PHONY : src/clanguage/LocateDB.o
+
+# target to build an object file
+src/clanguage/LocateDB.c.o:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o
+.PHONY : src/clanguage/LocateDB.c.o
+
+src/clanguage/LocateDB.i: src/clanguage/LocateDB.c.i
+
+.PHONY : src/clanguage/LocateDB.i
+
+# target to preprocess a source file
+src/clanguage/LocateDB.c.i:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.i
+.PHONY : src/clanguage/LocateDB.c.i
+
+src/clanguage/LocateDB.s: src/clanguage/LocateDB.c.s
+
+.PHONY : src/clanguage/LocateDB.s
+
+# target to generate assembly for a file
+src/clanguage/LocateDB.c.s:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.s
+.PHONY : src/clanguage/LocateDB.c.s
+
+src/clanguage/OpenDB.o: src/clanguage/OpenDB.c.o
+
+.PHONY : src/clanguage/OpenDB.o
+
+# target to build an object file
+src/clanguage/OpenDB.c.o:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o
+.PHONY : src/clanguage/OpenDB.c.o
+
+src/clanguage/OpenDB.i: src/clanguage/OpenDB.c.i
+
+.PHONY : src/clanguage/OpenDB.i
+
+# target to preprocess a source file
+src/clanguage/OpenDB.c.i:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.i
+.PHONY : src/clanguage/OpenDB.c.i
+
+src/clanguage/OpenDB.s: src/clanguage/OpenDB.c.s
+
+.PHONY : src/clanguage/OpenDB.s
+
+# target to generate assembly for a file
+src/clanguage/OpenDB.c.s:
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.s
+.PHONY : src/clanguage/OpenDB.c.s
 
 src/clanguage/SwitchMethod.o: src/clanguage/SwitchMethod.c.o
 
@@ -243,12 +405,30 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/clanguage/AppendsData.o"
+	@echo "... src/clanguage/AppendsData.i"
+	@echo "... src/clanguage/AppendsData.s"
 	@echo "... src/clanguage/CreateDB.o"
 	@echo "... src/clanguage/CreateDB.i"
 	@echo "... src/clanguage/CreateDB.s"
+	@echo "... src/clanguage/DeleteDB.o"
+	@echo "... src/clanguage/DeleteDB.i"
+	@echo "... src/clanguage/DeleteDB.s"
+	@echo "... src/clanguage/DisplayDB.o"
+	@echo "... src/clanguage/DisplayDB.i"
+	@echo "... src/clanguage/DisplayDB.s"
+	@echo "... src/clanguage/DisplayPointsRecord.o"
+	@echo "... src/clanguage/DisplayPointsRecord.i"
+	@echo "... src/clanguage/DisplayPointsRecord.s"
 	@echo "... src/clanguage/HelpDoc.o"
 	@echo "... src/clanguage/HelpDoc.i"
 	@echo "... src/clanguage/HelpDoc.s"
+	@echo "... src/clanguage/LocateDB.o"
+	@echo "... src/clanguage/LocateDB.i"
+	@echo "... src/clanguage/LocateDB.s"
+	@echo "... src/clanguage/OpenDB.o"
+	@echo "... src/clanguage/OpenDB.i"
+	@echo "... src/clanguage/OpenDB.s"
 	@echo "... src/clanguage/SwitchMethod.o"
 	@echo "... src/clanguage/SwitchMethod.i"
 	@echo "... src/clanguage/SwitchMethod.s"

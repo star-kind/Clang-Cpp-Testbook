@@ -2,7 +2,7 @@
 // Created by user on 21-6-9.
 //
 
-#include "../../head-dir/link_man.h"
+#include "../../heads/link_man.h"
 
 /**
  * 初始化数组

@@ -5,8 +5,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/user/admin/workspace/c_cpp/DataBase/main.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/main.c.o"
+  "/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/AppendsData.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o"
   "/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/CreateDB.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o"
+  "/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DeleteDB.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o"
+  "/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayDB.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o"
+  "/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayPointsRecord.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o"
   "/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/HelpDoc.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o"
+  "/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/LocateDB.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o"
+  "/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/OpenDB.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o"
   "/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/SwitchMethod.c" "/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

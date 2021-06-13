@@ -79,13 +79,34 @@
 		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/main.c">
 			<Option target="DataBase"/>
 		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/AppendsData.c">
+			<Option target="DataBase"/>
+		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/CreateDB.c">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DeleteDB.c">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayDB.c">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayPointsRecord.c">
 			<Option target="DataBase"/>
 		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/HelpDoc.c">
 			<Option target="DataBase"/>
 		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/LocateDB.c">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/OpenDB.c">
+			<Option target="DataBase"/>
+		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/clanguage/SwitchMethod.c">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/head/Methods.h">
 			<Option target="DataBase"/>
 		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/DataBase/src/head/header.h">

@@ -1,3 +1,8 @@
+/*strcmp(s1, s2);
+如果 s1 和 s2 是相同的，则返回 0；
+如果 s1<s2 则返回小于 0；
+如果 s1>s2 则返回大于 0*/
+
 #include "./../head/header.h"
 
 //建立数据库类型结构
@@ -20,8 +25,6 @@ void createDB(dbTypeLinkList *database[], int *length) {
 
     loop:
     while (1) {
-        /*strcmp(s1, s2);
-如果 s1 和 s2 是相同的，则返回 0；如果 s1<s2 则返回小于 0；如果 s1>s2 则返回大于 0*/
         if (strcmp(type, "string") == 0 || strcmp(type, "double") == 0 || strcmp(type, "int") == 0) {
             break;
         } else {
@@ -59,6 +62,7 @@ void createDB(dbTypeLinkList *database[], int *length) {
         goto loop;
 
     }
+
     //结束输入时,显示数据库字段和类型
     for (i = 0; i < *length; i++) {
         printf("%s(%s)", database[i]->data, database[i]->type);

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TeleList.dir/main.c.o"
-  "CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o"
-  "CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o"
+  "CMakeFiles/TeleList.dir/src/clang/main/middle.c.o"
+  "CMakeFiles/TeleList.dir/src/clang/util/api.c.o"
   "TeleList.pdb"
   "TeleList"
 )

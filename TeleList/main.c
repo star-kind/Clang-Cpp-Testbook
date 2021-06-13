@@ -1,5 +1,5 @@
 //#include <stdio.h>
-#include "functions.h"
+#include "src/heads/functions.h"
 
 int main() {
     exports();

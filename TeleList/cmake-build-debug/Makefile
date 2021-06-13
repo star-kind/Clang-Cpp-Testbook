@@ -150,59 +150,59 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/main.c.s
 .PHONY : main.c.s
 
-src/c-dir/processing/middle.o: src/c-dir/processing/middle.c.o
+src/clang/main/middle.o: src/clang/main/middle.c.o
 
-.PHONY : src/c-dir/processing/middle.o
-
-# target to build an object file
-src/c-dir/processing/middle.c.o:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.o
-.PHONY : src/c-dir/processing/middle.c.o
-
-src/c-dir/processing/middle.i: src/c-dir/processing/middle.c.i
-
-.PHONY : src/c-dir/processing/middle.i
-
-# target to preprocess a source file
-src/c-dir/processing/middle.c.i:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.i
-.PHONY : src/c-dir/processing/middle.c.i
-
-src/c-dir/processing/middle.s: src/c-dir/processing/middle.c.s
-
-.PHONY : src/c-dir/processing/middle.s
-
-# target to generate assembly for a file
-src/c-dir/processing/middle.c.s:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/processing/middle.c.s
-.PHONY : src/c-dir/processing/middle.c.s
-
-src/c-dir/util/api.o: src/c-dir/util/api.c.o
-
-.PHONY : src/c-dir/util/api.o
+.PHONY : src/clang/main/middle.o
 
 # target to build an object file
-src/c-dir/util/api.c.o:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/util/api.c.o
-.PHONY : src/c-dir/util/api.c.o
+src/clang/main/middle.c.o:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/clang/main/middle.c.o
+.PHONY : src/clang/main/middle.c.o
 
-src/c-dir/util/api.i: src/c-dir/util/api.c.i
+src/clang/main/middle.i: src/clang/main/middle.c.i
 
-.PHONY : src/c-dir/util/api.i
+.PHONY : src/clang/main/middle.i
 
 # target to preprocess a source file
-src/c-dir/util/api.c.i:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/util/api.c.i
-.PHONY : src/c-dir/util/api.c.i
+src/clang/main/middle.c.i:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/clang/main/middle.c.i
+.PHONY : src/clang/main/middle.c.i
 
-src/c-dir/util/api.s: src/c-dir/util/api.c.s
+src/clang/main/middle.s: src/clang/main/middle.c.s
 
-.PHONY : src/c-dir/util/api.s
+.PHONY : src/clang/main/middle.s
 
 # target to generate assembly for a file
-src/c-dir/util/api.c.s:
-	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/c-dir/util/api.c.s
-.PHONY : src/c-dir/util/api.c.s
+src/clang/main/middle.c.s:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/clang/main/middle.c.s
+.PHONY : src/clang/main/middle.c.s
+
+src/clang/util/api.o: src/clang/util/api.c.o
+
+.PHONY : src/clang/util/api.o
+
+# target to build an object file
+src/clang/util/api.c.o:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/clang/util/api.c.o
+.PHONY : src/clang/util/api.c.o
+
+src/clang/util/api.i: src/clang/util/api.c.i
+
+.PHONY : src/clang/util/api.i
+
+# target to preprocess a source file
+src/clang/util/api.c.i:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/clang/util/api.c.i
+.PHONY : src/clang/util/api.c.i
+
+src/clang/util/api.s: src/clang/util/api.c.s
+
+.PHONY : src/clang/util/api.s
+
+# target to generate assembly for a file
+src/clang/util/api.c.s:
+	$(MAKE) -f CMakeFiles/TeleList.dir/build.make CMakeFiles/TeleList.dir/src/clang/util/api.c.s
+.PHONY : src/clang/util/api.c.s
 
 # Help Target
 help:
@@ -216,12 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/c-dir/processing/middle.o"
-	@echo "... src/c-dir/processing/middle.i"
-	@echo "... src/c-dir/processing/middle.s"
-	@echo "... src/c-dir/util/api.o"
-	@echo "... src/c-dir/util/api.i"
-	@echo "... src/c-dir/util/api.s"
+	@echo "... src/clang/main/middle.o"
+	@echo "... src/clang/main/middle.i"
+	@echo "... src/clang/main/middle.s"
+	@echo "... src/clang/util/api.o"
+	@echo "... src/clang/util/api.i"
+	@echo "... src/clang/util/api.s"
 .PHONY : help
 
 

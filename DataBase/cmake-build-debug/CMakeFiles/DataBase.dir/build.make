@@ -81,9 +81,33 @@ CMakeFiles/DataBase.dir/main.c.o.provides: CMakeFiles/DataBase.dir/main.c.o.requ
 CMakeFiles/DataBase.dir/main.c.o.provides.build: CMakeFiles/DataBase.dir/main.c.o
 
 
+CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o: CMakeFiles/DataBase.dir/flags.make
+CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o: ../src/clanguage/AppendsData.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o   -c /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/AppendsData.c
+
+CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/AppendsData.c > CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.i
+
+CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/AppendsData.c -o CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.s
+
+CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o.requires:
+
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o.requires
+
+CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o.provides: CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o.requires
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o.provides.build
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o.provides
+
+CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o.provides.build: CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o
+
+
 CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o: CMakeFiles/DataBase.dir/flags.make
 CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o: ../src/clanguage/CreateDB.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o   -c /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/CreateDB.c
 
 CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.i: cmake_force
@@ -105,9 +129,81 @@ CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o.provides: CMakeFiles/DataBase
 CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o.provides.build: CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o
 
 
+CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o: CMakeFiles/DataBase.dir/flags.make
+CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o: ../src/clanguage/DeleteDB.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o   -c /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DeleteDB.c
+
+CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DeleteDB.c > CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.i
+
+CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DeleteDB.c -o CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.s
+
+CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o.requires:
+
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o.requires
+
+CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o.provides: CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o.requires
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o.provides.build
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o.provides
+
+CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o.provides.build: CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o
+
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o: CMakeFiles/DataBase.dir/flags.make
+CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o: ../src/clanguage/DisplayDB.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o   -c /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayDB.c
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayDB.c > CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.i
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayDB.c -o CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.s
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o.requires:
+
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o.requires
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o.provides: CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o.requires
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o.provides.build
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o.provides
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o.provides.build: CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o
+
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o: CMakeFiles/DataBase.dir/flags.make
+CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o: ../src/clanguage/DisplayPointsRecord.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o   -c /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayPointsRecord.c
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayPointsRecord.c > CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.i
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/DisplayPointsRecord.c -o CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.s
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o.requires:
+
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o.requires
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o.provides: CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o.requires
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o.provides.build
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o.provides
+
+CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o.provides.build: CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o
+
+
 CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o: CMakeFiles/DataBase.dir/flags.make
 CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o: ../src/clanguage/HelpDoc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o   -c /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/HelpDoc.c
 
 CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.i: cmake_force
@@ -129,9 +225,57 @@ CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o.provides: CMakeFiles/DataBase.
 CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o.provides.build: CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o
 
 
+CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o: CMakeFiles/DataBase.dir/flags.make
+CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o: ../src/clanguage/LocateDB.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o   -c /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/LocateDB.c
+
+CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/LocateDB.c > CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.i
+
+CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/LocateDB.c -o CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.s
+
+CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o.requires:
+
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o.requires
+
+CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o.provides: CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o.requires
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o.provides.build
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o.provides
+
+CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o.provides.build: CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o
+
+
+CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o: CMakeFiles/DataBase.dir/flags.make
+CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o: ../src/clanguage/OpenDB.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o   -c /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/OpenDB.c
+
+CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/OpenDB.c > CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.i
+
+CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/OpenDB.c -o CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.s
+
+CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o.requires:
+
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o.requires
+
+CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o.provides: CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o.requires
+	$(MAKE) -f CMakeFiles/DataBase.dir/build.make CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o.provides.build
+.PHONY : CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o.provides
+
+CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o.provides.build: CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o
+
+
 CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o: CMakeFiles/DataBase.dir/flags.make
 CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o: ../src/clanguage/SwitchMethod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o   -c /home/user/admin/workspace/c_cpp/DataBase/src/clanguage/SwitchMethod.c
 
 CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.i: cmake_force
@@ -156,20 +300,32 @@ CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o.provides.build: CMakeFile
 # Object files for target DataBase
 DataBase_OBJECTS = \
 "CMakeFiles/DataBase.dir/main.c.o" \
+"CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o" \
 "CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o" \
+"CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o" \
+"CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o" \
+"CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o" \
 "CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o" \
+"CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o" \
+"CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o" \
 "CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o"
 
 # External object files for target DataBase
 DataBase_EXTERNAL_OBJECTS =
 
 DataBase: CMakeFiles/DataBase.dir/main.c.o
+DataBase: CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o
 DataBase: CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o
+DataBase: CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o
+DataBase: CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o
+DataBase: CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o
 DataBase: CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o
+DataBase: CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o
+DataBase: CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o
 DataBase: CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o
 DataBase: CMakeFiles/DataBase.dir/build.make
 DataBase: CMakeFiles/DataBase.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable DataBase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/admin/workspace/c_cpp/DataBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable DataBase"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataBase.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,8 +334,14 @@ CMakeFiles/DataBase.dir/build: DataBase
 .PHONY : CMakeFiles/DataBase.dir/build
 
 CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/main.c.o.requires
+CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/src/clanguage/AppendsData.c.o.requires
 CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/src/clanguage/CreateDB.c.o.requires
+CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/src/clanguage/DeleteDB.c.o.requires
+CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/src/clanguage/DisplayDB.c.o.requires
+CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/src/clanguage/DisplayPointsRecord.c.o.requires
 CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/src/clanguage/HelpDoc.c.o.requires
+CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/src/clanguage/LocateDB.c.o.requires
+CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/src/clanguage/OpenDB.c.o.requires
 CMakeFiles/DataBase.dir/requires: CMakeFiles/DataBase.dir/src/clanguage/SwitchMethod.c.o.requires
 
 .PHONY : CMakeFiles/DataBase.dir/requires

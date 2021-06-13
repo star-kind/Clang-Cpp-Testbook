@@ -1,5 +1,5 @@
-#include "../../../functions.h"
-//#include "../../head-dir/link_man.h"
+#include "../../heads/functions.h"
+#include "../../heads/link_man.h"
 
 Statis sta;
 

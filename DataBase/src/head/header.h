@@ -20,8 +20,12 @@ int pointsRecord;
 
 char link[110];
 char value[110];
-char zd1[110];
-char lxl[110];
+
+//字段数组，zd1
+char fields[110];
+
+//lxl,lx为要查找字段的内容
+char contentLine[110];
 
 //dbms_node
 //定义数据库
@@ -38,7 +42,7 @@ typedef struct dbPoint {
 
 //wj
 //定义结构中新的二维数组，以便用来与文件交互
-typedef struct dbPoint twoDimension[200][10];
+struct dbPoint twoDimension[200][10];
 
 //men
 //分别存储文件的每一行，再赋值给 twoDimension 数组
@@ -69,4 +73,5 @@ char autoOrder[100];
 //fabian
 //反向存储 autoOrder 数组
 char reverseAutoOrder[100];
+
 FILE *fp;
