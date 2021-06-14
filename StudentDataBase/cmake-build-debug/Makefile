@@ -150,6 +150,249 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/main.c.s
 .PHONY : main.c.s
 
+src/clang/main/control/CheckOrder.o: src/clang/main/control/CheckOrder.c.o
+
+.PHONY : src/clang/main/control/CheckOrder.o
+
+# target to build an object file
+src/clang/main/control/CheckOrder.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/control/CheckOrder.c.o
+.PHONY : src/clang/main/control/CheckOrder.c.o
+
+src/clang/main/control/CheckOrder.i: src/clang/main/control/CheckOrder.c.i
+
+.PHONY : src/clang/main/control/CheckOrder.i
+
+# target to preprocess a source file
+src/clang/main/control/CheckOrder.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/control/CheckOrder.c.i
+.PHONY : src/clang/main/control/CheckOrder.c.i
+
+src/clang/main/control/CheckOrder.s: src/clang/main/control/CheckOrder.c.s
+
+.PHONY : src/clang/main/control/CheckOrder.s
+
+# target to generate assembly for a file
+src/clang/main/control/CheckOrder.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/control/CheckOrder.c.s
+.PHONY : src/clang/main/control/CheckOrder.c.s
+
+src/clang/main/control/MainWindow.o: src/clang/main/control/MainWindow.c.o
+
+.PHONY : src/clang/main/control/MainWindow.o
+
+# target to build an object file
+src/clang/main/control/MainWindow.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/control/MainWindow.c.o
+.PHONY : src/clang/main/control/MainWindow.c.o
+
+src/clang/main/control/MainWindow.i: src/clang/main/control/MainWindow.c.i
+
+.PHONY : src/clang/main/control/MainWindow.i
+
+# target to preprocess a source file
+src/clang/main/control/MainWindow.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/control/MainWindow.c.i
+.PHONY : src/clang/main/control/MainWindow.c.i
+
+src/clang/main/control/MainWindow.s: src/clang/main/control/MainWindow.c.s
+
+.PHONY : src/clang/main/control/MainWindow.s
+
+# target to generate assembly for a file
+src/clang/main/control/MainWindow.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/control/MainWindow.c.s
+.PHONY : src/clang/main/control/MainWindow.c.s
+
+src/clang/main/create/AddStudent.o: src/clang/main/create/AddStudent.c.o
+
+.PHONY : src/clang/main/create/AddStudent.o
+
+# target to build an object file
+src/clang/main/create/AddStudent.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/AddStudent.c.o
+.PHONY : src/clang/main/create/AddStudent.c.o
+
+src/clang/main/create/AddStudent.i: src/clang/main/create/AddStudent.c.i
+
+.PHONY : src/clang/main/create/AddStudent.i
+
+# target to preprocess a source file
+src/clang/main/create/AddStudent.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/AddStudent.c.i
+.PHONY : src/clang/main/create/AddStudent.c.i
+
+src/clang/main/create/AddStudent.s: src/clang/main/create/AddStudent.c.s
+
+.PHONY : src/clang/main/create/AddStudent.s
+
+# target to generate assembly for a file
+src/clang/main/create/AddStudent.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/AddStudent.c.s
+.PHONY : src/clang/main/create/AddStudent.c.s
+
+src/clang/main/create/CreateStud.o: src/clang/main/create/CreateStud.c.o
+
+.PHONY : src/clang/main/create/CreateStud.o
+
+# target to build an object file
+src/clang/main/create/CreateStud.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/CreateStud.c.o
+.PHONY : src/clang/main/create/CreateStud.c.o
+
+src/clang/main/create/CreateStud.i: src/clang/main/create/CreateStud.c.i
+
+.PHONY : src/clang/main/create/CreateStud.i
+
+# target to preprocess a source file
+src/clang/main/create/CreateStud.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/CreateStud.c.i
+.PHONY : src/clang/main/create/CreateStud.c.i
+
+src/clang/main/create/CreateStud.s: src/clang/main/create/CreateStud.c.s
+
+.PHONY : src/clang/main/create/CreateStud.s
+
+# target to generate assembly for a file
+src/clang/main/create/CreateStud.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/CreateStud.c.s
+.PHONY : src/clang/main/create/CreateStud.c.s
+
+src/clang/main/delete/DeleteStud.o: src/clang/main/delete/DeleteStud.c.o
+
+.PHONY : src/clang/main/delete/DeleteStud.o
+
+# target to build an object file
+src/clang/main/delete/DeleteStud.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/delete/DeleteStud.c.o
+.PHONY : src/clang/main/delete/DeleteStud.c.o
+
+src/clang/main/delete/DeleteStud.i: src/clang/main/delete/DeleteStud.c.i
+
+.PHONY : src/clang/main/delete/DeleteStud.i
+
+# target to preprocess a source file
+src/clang/main/delete/DeleteStud.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/delete/DeleteStud.c.i
+.PHONY : src/clang/main/delete/DeleteStud.c.i
+
+src/clang/main/delete/DeleteStud.s: src/clang/main/delete/DeleteStud.c.s
+
+.PHONY : src/clang/main/delete/DeleteStud.s
+
+# target to generate assembly for a file
+src/clang/main/delete/DeleteStud.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/delete/DeleteStud.c.s
+.PHONY : src/clang/main/delete/DeleteStud.c.s
+
+src/clang/main/retrive/ExhibitStud.o: src/clang/main/retrive/ExhibitStud.c.o
+
+.PHONY : src/clang/main/retrive/ExhibitStud.o
+
+# target to build an object file
+src/clang/main/retrive/ExhibitStud.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/retrive/ExhibitStud.c.o
+.PHONY : src/clang/main/retrive/ExhibitStud.c.o
+
+src/clang/main/retrive/ExhibitStud.i: src/clang/main/retrive/ExhibitStud.c.i
+
+.PHONY : src/clang/main/retrive/ExhibitStud.i
+
+# target to preprocess a source file
+src/clang/main/retrive/ExhibitStud.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/retrive/ExhibitStud.c.i
+.PHONY : src/clang/main/retrive/ExhibitStud.c.i
+
+src/clang/main/retrive/ExhibitStud.s: src/clang/main/retrive/ExhibitStud.c.s
+
+.PHONY : src/clang/main/retrive/ExhibitStud.s
+
+# target to generate assembly for a file
+src/clang/main/retrive/ExhibitStud.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/retrive/ExhibitStud.c.s
+.PHONY : src/clang/main/retrive/ExhibitStud.c.s
+
+src/clang/main/rw/ReadData.o: src/clang/main/rw/ReadData.c.o
+
+.PHONY : src/clang/main/rw/ReadData.o
+
+# target to build an object file
+src/clang/main/rw/ReadData.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/rw/ReadData.c.o
+.PHONY : src/clang/main/rw/ReadData.c.o
+
+src/clang/main/rw/ReadData.i: src/clang/main/rw/ReadData.c.i
+
+.PHONY : src/clang/main/rw/ReadData.i
+
+# target to preprocess a source file
+src/clang/main/rw/ReadData.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/rw/ReadData.c.i
+.PHONY : src/clang/main/rw/ReadData.c.i
+
+src/clang/main/rw/ReadData.s: src/clang/main/rw/ReadData.c.s
+
+.PHONY : src/clang/main/rw/ReadData.s
+
+# target to generate assembly for a file
+src/clang/main/rw/ReadData.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/rw/ReadData.c.s
+.PHONY : src/clang/main/rw/ReadData.c.s
+
+src/clang/main/rw/WriteData.o: src/clang/main/rw/WriteData.c.o
+
+.PHONY : src/clang/main/rw/WriteData.o
+
+# target to build an object file
+src/clang/main/rw/WriteData.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/rw/WriteData.c.o
+.PHONY : src/clang/main/rw/WriteData.c.o
+
+src/clang/main/rw/WriteData.i: src/clang/main/rw/WriteData.c.i
+
+.PHONY : src/clang/main/rw/WriteData.i
+
+# target to preprocess a source file
+src/clang/main/rw/WriteData.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/rw/WriteData.c.i
+.PHONY : src/clang/main/rw/WriteData.c.i
+
+src/clang/main/rw/WriteData.s: src/clang/main/rw/WriteData.c.s
+
+.PHONY : src/clang/main/rw/WriteData.s
+
+# target to generate assembly for a file
+src/clang/main/rw/WriteData.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/rw/WriteData.c.s
+.PHONY : src/clang/main/rw/WriteData.c.s
+
+src/clang/main/update/UpdateStud.o: src/clang/main/update/UpdateStud.c.o
+
+.PHONY : src/clang/main/update/UpdateStud.o
+
+# target to build an object file
+src/clang/main/update/UpdateStud.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/update/UpdateStud.c.o
+.PHONY : src/clang/main/update/UpdateStud.c.o
+
+src/clang/main/update/UpdateStud.i: src/clang/main/update/UpdateStud.c.i
+
+.PHONY : src/clang/main/update/UpdateStud.i
+
+# target to preprocess a source file
+src/clang/main/update/UpdateStud.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/update/UpdateStud.c.i
+.PHONY : src/clang/main/update/UpdateStud.c.i
+
+src/clang/main/update/UpdateStud.s: src/clang/main/update/UpdateStud.c.s
+
+.PHONY : src/clang/main/update/UpdateStud.s
+
+# target to generate assembly for a file
+src/clang/main/update/UpdateStud.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/update/UpdateStud.c.s
+.PHONY : src/clang/main/update/UpdateStud.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +405,33 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/clang/main/control/CheckOrder.o"
+	@echo "... src/clang/main/control/CheckOrder.i"
+	@echo "... src/clang/main/control/CheckOrder.s"
+	@echo "... src/clang/main/control/MainWindow.o"
+	@echo "... src/clang/main/control/MainWindow.i"
+	@echo "... src/clang/main/control/MainWindow.s"
+	@echo "... src/clang/main/create/AddStudent.o"
+	@echo "... src/clang/main/create/AddStudent.i"
+	@echo "... src/clang/main/create/AddStudent.s"
+	@echo "... src/clang/main/create/CreateStud.o"
+	@echo "... src/clang/main/create/CreateStud.i"
+	@echo "... src/clang/main/create/CreateStud.s"
+	@echo "... src/clang/main/delete/DeleteStud.o"
+	@echo "... src/clang/main/delete/DeleteStud.i"
+	@echo "... src/clang/main/delete/DeleteStud.s"
+	@echo "... src/clang/main/retrive/ExhibitStud.o"
+	@echo "... src/clang/main/retrive/ExhibitStud.i"
+	@echo "... src/clang/main/retrive/ExhibitStud.s"
+	@echo "... src/clang/main/rw/ReadData.o"
+	@echo "... src/clang/main/rw/ReadData.i"
+	@echo "... src/clang/main/rw/ReadData.s"
+	@echo "... src/clang/main/rw/WriteData.o"
+	@echo "... src/clang/main/rw/WriteData.i"
+	@echo "... src/clang/main/rw/WriteData.s"
+	@echo "... src/clang/main/update/UpdateStud.o"
+	@echo "... src/clang/main/update/UpdateStud.i"
+	@echo "... src/clang/main/update/UpdateStud.s"
 .PHONY : help
 
 

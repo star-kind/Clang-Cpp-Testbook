@@ -79,6 +79,36 @@
 		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/main.c">
 			<Option target="StudentDataBase"/>
 		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/control/CheckOrder.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/control/MainWindow.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/create/AddStudent.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/create/CreateStud.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/delete/DeleteStud.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/retrive/ExhibitStud.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/rw/ReadData.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/rw/WriteData.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/update/UpdateStud.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/declare/Declare.h">
+			<Option target="StudentDataBase"/>
+		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
