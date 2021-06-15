@@ -38,7 +38,7 @@ void menu1() {
     printf("**************************\n");
     printf("***  *1.name     *2.gender      ***\n");
     printf("***  *3.age      *4.telephone   ***\n");
-    printf("***  *5.address  *6.return      ***\n");
+    printf("***  *5.address  *0.return      ***\n");
     printf("**************************\n");
 }
 
@@ -148,27 +148,27 @@ void Revise_link_man(Statis *p) {
 
             switch (i) {
                 case 1:
-                    printf("'请把姓名改为:\n");
+                    printf("请把姓名改为:\n");
                     scanf("%s", p->num[result].name);
                     break;
 
                 case 2:
-                    printf("'请把性别改为:\n");
+                    printf("请把性别改为:\n");
                     scanf("%s", p->num[result].gender);
                     break;
 
                 case 3:
-                    printf("'请把年龄改为:\n");
+                    printf("请把年龄改为:\n");
                     scanf("%d", &(p->num[result].age));
                     break;
 
                 case 4:
-                    printf("'请把电话改为:\n");
+                    printf("请把电话改为:\n");
                     scanf("%s", p->num[result].tel);
                     break;
 
                 case 5:
-                    printf("'请把地址改为:\n");
+                    printf("请把地址改为:\n");
                     scanf("%s", p->num[result].addr);
                     break;
 

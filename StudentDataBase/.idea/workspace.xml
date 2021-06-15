@@ -12,53 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92fbb80-a49d-4b08-bc1c-75d11db03e95" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/create/FreshData.c.o" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/StudentDataBase" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/student.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pictures/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pictures/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pictures/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/clang/main/create/FreshData.c" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/10" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/11" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/8" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/9" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/C.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/control/CheckOrder.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/control/CheckOrder.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/control/MainWindow.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/control/MainWindow.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/create/AddStudent.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/create/AddStudent.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/delete/DeleteStud.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/delete/DeleteStud.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/rw/ReadData.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/rw/ReadData.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/rw/WriteData.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/rw/WriteData.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/update/UpdateStud.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StudentDataBase.dir/src/clang/main/update/UpdateStud.c.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/StudentDataBase.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/StudentDataBase.cbp" />
-      <change beforePath="$PROJECT_DIR$/src/clang/main/control/CheckOrder.c" afterPath="$PROJECT_DIR$/src/clang/main/control/CheckOrder.c" />
-      <change beforePath="$PROJECT_DIR$/src/clang/main/control/MainWindow.c" afterPath="$PROJECT_DIR$/src/clang/main/control/MainWindow.c" />
-      <change beforePath="$PROJECT_DIR$/src/clang/main/create/AddStudent.c" afterPath="$PROJECT_DIR$/src/clang/main/create/AddStudent.c" />
-      <change beforePath="$PROJECT_DIR$/src/clang/main/delete/DeleteStud.c" afterPath="$PROJECT_DIR$/src/clang/main/delete/DeleteStud.c" />
-      <change beforePath="$PROJECT_DIR$/src/clang/main/rw/ReadData.c" afterPath="$PROJECT_DIR$/src/clang/main/rw/ReadData.c" />
-      <change beforePath="$PROJECT_DIR$/src/clang/main/update/UpdateStud.c" afterPath="$PROJECT_DIR$/src/clang/main/update/UpdateStud.c" />
-      <change beforePath="$PROJECT_DIR$/src/declare/Declare.h" afterPath="$PROJECT_DIR$/src/declare/Declare.h" />
+      <change beforePath="$PROJECT_DIR$/../gitshell" afterPath="$PROJECT_DIR$/../gitshell" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,7 +111,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
     <option name="y" value="26" />
     <option name="width" value="1346" />
@@ -246,7 +201,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/clang/main/create" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TeleList" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -293,12 +248,12 @@
       <workItem from="1623667165428" duration="5635000" />
       <workItem from="1623679625430" duration="6841000" />
       <workItem from="1623733013928" duration="2253000" />
-      <workItem from="1623743520275" duration="6906000" />
+      <workItem from="1623743520275" duration="7591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21635000" />
+    <option name="totallyTimeSpent" value="22320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,7 +265,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="26" width="1376" height="747" extended-state="7" />
+    <frame x="-5" y="26" width="1376" height="747" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21396397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32685512" sideWeight="0.493994" order="6" side_tool="false" content_ui="tabs" />
@@ -321,7 +276,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32685512" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40459365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6042403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6042403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31448764" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />

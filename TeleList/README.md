@@ -15,3 +15,16 @@
 - 清空全部联系人信息
 - 按联系人姓名进行排序
 
+### 图片
+
+![1](./pictures/1.png)  
+
+![2](./pictures/2.png)  
+
+![3](./pictures/3.png)  
+
+![4](./pictures/4.png)  
+
+![5](./pictures/5.png)  
+
+
