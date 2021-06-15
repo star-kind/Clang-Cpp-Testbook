@@ -258,6 +258,33 @@ src/clang/main/create/CreateStud.c.s:
 	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/CreateStud.c.s
 .PHONY : src/clang/main/create/CreateStud.c.s
 
+src/clang/main/create/FreshData.o: src/clang/main/create/FreshData.c.o
+
+.PHONY : src/clang/main/create/FreshData.o
+
+# target to build an object file
+src/clang/main/create/FreshData.c.o:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/FreshData.c.o
+.PHONY : src/clang/main/create/FreshData.c.o
+
+src/clang/main/create/FreshData.i: src/clang/main/create/FreshData.c.i
+
+.PHONY : src/clang/main/create/FreshData.i
+
+# target to preprocess a source file
+src/clang/main/create/FreshData.c.i:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/FreshData.c.i
+.PHONY : src/clang/main/create/FreshData.c.i
+
+src/clang/main/create/FreshData.s: src/clang/main/create/FreshData.c.s
+
+.PHONY : src/clang/main/create/FreshData.s
+
+# target to generate assembly for a file
+src/clang/main/create/FreshData.c.s:
+	$(MAKE) -f CMakeFiles/StudentDataBase.dir/build.make CMakeFiles/StudentDataBase.dir/src/clang/main/create/FreshData.c.s
+.PHONY : src/clang/main/create/FreshData.c.s
+
 src/clang/main/delete/DeleteStud.o: src/clang/main/delete/DeleteStud.c.o
 
 .PHONY : src/clang/main/delete/DeleteStud.o
@@ -417,6 +444,9 @@ help:
 	@echo "... src/clang/main/create/CreateStud.o"
 	@echo "... src/clang/main/create/CreateStud.i"
 	@echo "... src/clang/main/create/CreateStud.s"
+	@echo "... src/clang/main/create/FreshData.o"
+	@echo "... src/clang/main/create/FreshData.i"
+	@echo "... src/clang/main/create/FreshData.s"
 	@echo "... src/clang/main/delete/DeleteStud.o"
 	@echo "... src/clang/main/delete/DeleteStud.i"
 	@echo "... src/clang/main/delete/DeleteStud.s"

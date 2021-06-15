@@ -16,6 +16,9 @@ CMakeFiles/StudentDataBase.dir/src/clang/main/create/AddStudent.c.o: ../src/decl
 CMakeFiles/StudentDataBase.dir/src/clang/main/create/CreateStud.c.o: ../src/clang/main/create/CreateStud.c
 CMakeFiles/StudentDataBase.dir/src/clang/main/create/CreateStud.c.o: ../src/declare/Declare.h
 
+CMakeFiles/StudentDataBase.dir/src/clang/main/create/FreshData.c.o: ../src/clang/main/create/FreshData.c
+CMakeFiles/StudentDataBase.dir/src/clang/main/create/FreshData.c.o: ../src/declare/Declare.h
+
 CMakeFiles/StudentDataBase.dir/src/clang/main/delete/DeleteStud.c.o: ../src/clang/main/delete/DeleteStud.c
 CMakeFiles/StudentDataBase.dir/src/clang/main/delete/DeleteStud.c.o: ../src/declare/Declare.h
 

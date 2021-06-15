@@ -5,7 +5,13 @@ void readData(struct student *head) {
     FILE *fp;
     struct student *p = NULL, *q = NULL;
     p = head;
+
     fp = fopen(path, "r");
+    if (fp==NULL)
+    {
+        fp=fopen(path,"a+");
+    }
+
     q = freshData();
     while (fread(q, sizeof(struct student), 1, fp) == 1) {
         p->next = q;

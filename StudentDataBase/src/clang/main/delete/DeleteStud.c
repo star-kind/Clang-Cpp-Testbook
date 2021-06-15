@@ -8,16 +8,15 @@ void delStudent(struct student *head) {
     p2 = head->next;
 
     if (p2 == NULL) {
-        printf("数据库中无此学生\n");
+        printf("数据库中无此学生.");
         return;
     }
 
-    printf("请输入要删除的学生的号码\n");
-    scanf(" %d ", &num);
+    printf("请输入要删除的学生的号码:");
+    scanf("%d", &num);
 
     while (p2) {
-        int nextNum = ((head->next)->num);
-        if (nextNum == num) {//删除头数据
+        if (((head->next)->num) == num) {//删除头数据
             p1 = head->next;
             head->next = p1->next;
             free(p1);
@@ -25,9 +24,7 @@ void delStudent(struct student *head) {
             return;
         }
 
-        int p2Next = (p2->next)->next;
-        int p2NextNum = (p2->next)->num;
-        if ((p2->next != NULL) && (p2Next != NULL) && (p2NextNum == num)) {
+        if ((p2->next != NULL) && ((p2->next)->next != NULL) && ((p2->next)->num == num)) {
             p1 = p2->next;
             p2->next = p1->next;
             free(p1);
@@ -35,9 +32,7 @@ void delStudent(struct student *head) {
             return;
         }
 
-        int p2Next2 = (p2->next)->next;
-        int p2NextNum2 = (p2->next)->num;
-        if ((p2->next != NULL && p2Next2 == NULL && p2NextNum2 == num)) {//删除尾数据
+        if ((p2->next != NULL && (p2->next)->next == NULL && (p2->next)->num == num)) {//删除尾数据
             p1 = p2->next;
             p2->next = NULL;
             free(p1);

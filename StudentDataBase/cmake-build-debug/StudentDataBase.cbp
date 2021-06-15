@@ -91,6 +91,9 @@
 		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/create/CreateStud.c">
 			<Option target="StudentDataBase"/>
 		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/create/FreshData.c">
+			<Option target="StudentDataBase"/>
+		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/delete/DeleteStud.c">
 			<Option target="StudentDataBase"/>
 		</Unit>

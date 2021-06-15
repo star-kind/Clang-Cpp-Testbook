@@ -34,6 +34,10 @@ stdio.h
 ../../../declare/Declare.h
 /home/user/admin/workspace/c_cpp/StudentDataBase/src/declare/Declare.h
 
+/home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/create/FreshData.c
+../../../declare/Declare.h
+/home/user/admin/workspace/c_cpp/StudentDataBase/src/declare/Declare.h
+
 /home/user/admin/workspace/c_cpp/StudentDataBase/src/clang/main/delete/DeleteStud.c
 ../../../declare/Declare.h
 /home/user/admin/workspace/c_cpp/StudentDataBase/src/declare/Declare.h

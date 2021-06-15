@@ -8,7 +8,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define path "/home/user/downloads/ckh/student.dat"
+#define path "./student.dat"
 struct student {
     char name[20];
     char gender[4];
