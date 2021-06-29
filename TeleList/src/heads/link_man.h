@@ -6,7 +6,6 @@
 #define TELELIST_LINK_MAN_H
 
 #include <stdio.h>
-//#include <windows.h>
 #include <string.h>
 #include <stdlib.h>
 
