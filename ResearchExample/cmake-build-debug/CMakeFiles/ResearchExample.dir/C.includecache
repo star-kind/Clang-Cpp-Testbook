@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/admin/workspace/c_cpp/ResearchExample/main.c
+src/main/header/declaration.h
+/home/user/admin/workspace/c_cpp/ResearchExample/src/main/header/declaration.h
+
+/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/get_string.c
+../header/declaration.h
+/home/user/admin/workspace/c_cpp/ResearchExample/src/main/header/declaration.h
+
+/home/user/admin/workspace/c_cpp/ResearchExample/src/main/header/declaration.h
+stdio.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/web_server_project.dir/main.c.o CMakeFiles/web_server_project.dir/src/main/clang/get_time.c.o CMakeFiles/web_server_project.dir/src/main/clang/http_session.c.o CMakeFiles/web_server_project.dir/src/main/clang/init_socket.c.o CMakeFiles/web_server_project.dir/src/main/clang/web_server.c.o  -o web_server_project 

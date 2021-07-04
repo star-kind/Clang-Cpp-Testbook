@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/ResearchExample.dir/main.c.o CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o  -o ResearchExample 
