@@ -4,6 +4,15 @@
 CMakeFiles/ResearchExample.dir/main.c.o: ../main.c
 CMakeFiles/ResearchExample.dir/main.c.o: ../src/main/header/declaration.h
 
+CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o: ../src/main/clang/get_scan_str.c
+CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o: ../src/main/header/declaration.h
+
 CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o: ../src/main/clang/get_string.c
 CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o: ../src/main/header/declaration.h
+
+CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o: ../src/main/clang/pointer_case.c
+CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o: ../src/main/header/declaration.h
+
+CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o: ../src/main/clang/word_counts.c
+CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o: ../src/main/header/declaration.h
 

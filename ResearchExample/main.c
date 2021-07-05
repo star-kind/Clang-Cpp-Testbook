@@ -1,6 +1,6 @@
 #include "src/main/header/declaration.h"
 
 int main() {
-    show_string();
+    display_output();
     return 0;
 }

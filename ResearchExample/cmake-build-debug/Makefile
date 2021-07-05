@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/main.c.s
 .PHONY : main.c.s
 
+src/main/clang/get_scan_str.o: src/main/clang/get_scan_str.c.o
+
+.PHONY : src/main/clang/get_scan_str.o
+
+# target to build an object file
+src/main/clang/get_scan_str.c.o:
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o
+.PHONY : src/main/clang/get_scan_str.c.o
+
+src/main/clang/get_scan_str.i: src/main/clang/get_scan_str.c.i
+
+.PHONY : src/main/clang/get_scan_str.i
+
+# target to preprocess a source file
+src/main/clang/get_scan_str.c.i:
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.i
+.PHONY : src/main/clang/get_scan_str.c.i
+
+src/main/clang/get_scan_str.s: src/main/clang/get_scan_str.c.s
+
+.PHONY : src/main/clang/get_scan_str.s
+
+# target to generate assembly for a file
+src/main/clang/get_scan_str.c.s:
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.s
+.PHONY : src/main/clang/get_scan_str.c.s
+
 src/main/clang/get_string.o: src/main/clang/get_string.c.o
 
 .PHONY : src/main/clang/get_string.o
@@ -177,6 +204,60 @@ src/main/clang/get_string.c.s:
 	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.s
 .PHONY : src/main/clang/get_string.c.s
 
+src/main/clang/pointer_case.o: src/main/clang/pointer_case.c.o
+
+.PHONY : src/main/clang/pointer_case.o
+
+# target to build an object file
+src/main/clang/pointer_case.c.o:
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o
+.PHONY : src/main/clang/pointer_case.c.o
+
+src/main/clang/pointer_case.i: src/main/clang/pointer_case.c.i
+
+.PHONY : src/main/clang/pointer_case.i
+
+# target to preprocess a source file
+src/main/clang/pointer_case.c.i:
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.i
+.PHONY : src/main/clang/pointer_case.c.i
+
+src/main/clang/pointer_case.s: src/main/clang/pointer_case.c.s
+
+.PHONY : src/main/clang/pointer_case.s
+
+# target to generate assembly for a file
+src/main/clang/pointer_case.c.s:
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.s
+.PHONY : src/main/clang/pointer_case.c.s
+
+src/main/clang/word_counts.o: src/main/clang/word_counts.c.o
+
+.PHONY : src/main/clang/word_counts.o
+
+# target to build an object file
+src/main/clang/word_counts.c.o:
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o
+.PHONY : src/main/clang/word_counts.c.o
+
+src/main/clang/word_counts.i: src/main/clang/word_counts.c.i
+
+.PHONY : src/main/clang/word_counts.i
+
+# target to preprocess a source file
+src/main/clang/word_counts.c.i:
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.i
+.PHONY : src/main/clang/word_counts.c.i
+
+src/main/clang/word_counts.s: src/main/clang/word_counts.c.s
+
+.PHONY : src/main/clang/word_counts.s
+
+# target to generate assembly for a file
+src/main/clang/word_counts.c.s:
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.s
+.PHONY : src/main/clang/word_counts.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +270,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/main/clang/get_scan_str.o"
+	@echo "... src/main/clang/get_scan_str.i"
+	@echo "... src/main/clang/get_scan_str.s"
 	@echo "... src/main/clang/get_string.o"
 	@echo "... src/main/clang/get_string.i"
 	@echo "... src/main/clang/get_string.s"
+	@echo "... src/main/clang/pointer_case.o"
+	@echo "... src/main/clang/pointer_case.i"
+	@echo "... src/main/clang/pointer_case.s"
+	@echo "... src/main/clang/word_counts.o"
+	@echo "... src/main/clang/word_counts.i"
+	@echo "... src/main/clang/word_counts.s"
 .PHONY : help
 
 

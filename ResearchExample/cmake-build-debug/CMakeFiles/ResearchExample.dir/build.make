@@ -105,19 +105,97 @@ CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o.provides: CMakeFile
 CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o.provides.build: CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o
 
 
+CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o: CMakeFiles/ResearchExample.dir/flags.make
+CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o: ../src/main/clang/get_scan_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o   -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/get_scan_str.c
+
+CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/get_scan_str.c > CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.i
+
+CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/get_scan_str.c -o CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.s
+
+CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o.requires:
+
+.PHONY : CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o.requires
+
+CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o.provides: CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o.requires
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o.provides.build
+.PHONY : CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o.provides
+
+CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o.provides.build: CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o
+
+
+CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o: CMakeFiles/ResearchExample.dir/flags.make
+CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o: ../src/main/clang/pointer_case.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o   -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_case.c
+
+CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_case.c > CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.i
+
+CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_case.c -o CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.s
+
+CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o.requires:
+
+.PHONY : CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o.requires
+
+CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o.provides: CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o.requires
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o.provides.build
+.PHONY : CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o.provides
+
+CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o.provides.build: CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o
+
+
+CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o: CMakeFiles/ResearchExample.dir/flags.make
+CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o: ../src/main/clang/word_counts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o   -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/word_counts.c
+
+CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/word_counts.c > CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.i
+
+CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/word_counts.c -o CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.s
+
+CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o.requires:
+
+.PHONY : CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o.requires
+
+CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o.provides: CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o.requires
+	$(MAKE) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o.provides.build
+.PHONY : CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o.provides
+
+CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o.provides.build: CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o
+
+
 # Object files for target ResearchExample
 ResearchExample_OBJECTS = \
 "CMakeFiles/ResearchExample.dir/main.c.o" \
-"CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o"
+"CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o" \
+"CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o" \
+"CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o" \
+"CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o"
 
 # External object files for target ResearchExample
 ResearchExample_EXTERNAL_OBJECTS =
 
 ResearchExample: CMakeFiles/ResearchExample.dir/main.c.o
 ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o
+ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o
+ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o
+ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o
 ResearchExample: CMakeFiles/ResearchExample.dir/build.make
 ResearchExample: CMakeFiles/ResearchExample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ResearchExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable ResearchExample"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ResearchExample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +205,9 @@ CMakeFiles/ResearchExample.dir/build: ResearchExample
 
 CMakeFiles/ResearchExample.dir/requires: CMakeFiles/ResearchExample.dir/main.c.o.requires
 CMakeFiles/ResearchExample.dir/requires: CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o.requires
+CMakeFiles/ResearchExample.dir/requires: CMakeFiles/ResearchExample.dir/src/main/clang/get_scan_str.c.o.requires
+CMakeFiles/ResearchExample.dir/requires: CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o.requires
+CMakeFiles/ResearchExample.dir/requires: CMakeFiles/ResearchExample.dir/src/main/clang/word_counts.c.o.requires
 
 .PHONY : CMakeFiles/ResearchExample.dir/requires
 
