@@ -1,5 +1,7 @@
 #include "../header/declaration.h"
 
+// TODO 需求:输入多个字符串,中止后连接起来输出
+
 char *input_string() {
     char *str;
     char *prev_str;
@@ -9,7 +11,7 @@ char *input_string() {
     str = (char *) malloc(sizeof(char) * 40);
     prev_str = (char *) malloc(sizeof(char) * 40);
 
-    printf("input input_string : ");
+    printf("input input_string: ");
 
     while (1) {
         scanf("%s", str);
@@ -19,12 +21,12 @@ char *input_string() {
             printf("中止符出现!\n");
             break;
         } else {
-            printf("string : %s \n", str);
+            printf("string: %s \n", str);
         }
         prev_str = str;
 
-        // TODO C语言:通过指针对字符串进行拼接
     }
+    printf("previous string: %s \n", prev_str);
 
     return str;
 }
