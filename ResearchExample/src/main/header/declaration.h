@@ -1,7 +1,3 @@
-//
-// Created by user on 21-7-5.
-//
-
 #ifndef RESEARCHEXAMPLE_DECLARATION_H
 #define RESEARCHEXAMPLE_DECLARATION_H
 
@@ -11,14 +7,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-char *get_string();
 void show_string();
-
-void word_counts();
 
 void pointer_character();
 
-char *input_string();
-void display_output();
+void sequence_table_exports();
+
+void single_direction_export();
+void single_direction_export_1();
 
 #endif //RESEARCHEXAMPLE_DECLARATION_H

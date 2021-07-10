@@ -1,6 +1,6 @@
 #include "src/main/header/declaration.h"
 
 int main() {
-    display_output();
+//    pointer_demo_export();
     return 0;
 }

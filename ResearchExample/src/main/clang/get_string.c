@@ -1,7 +1,3 @@
-//
-// Created by user on 21-7-5.
-//
-
 #include "../header/declaration.h"
 
 /**
