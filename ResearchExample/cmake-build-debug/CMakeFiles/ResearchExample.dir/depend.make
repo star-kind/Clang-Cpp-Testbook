@@ -10,11 +10,11 @@ CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o: ../src/main/header
 CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o: ../src/main/clang/pointer_case.c
 CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o: ../src/main/header/declaration.h
 
-CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o: ../src/main/clang/pointer_demo.c
-CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o: ../src/main/header/declaration.h
-
 CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o: ../src/main/clang/sequence_table.c
 CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o: ../src/main/header/declaration.h
+
+CMakeFiles/ResearchExample.dir/src/main/clang/single_dire_list.c.o: ../src/main/clang/single_dire_list.c
+CMakeFiles/ResearchExample.dir/src/main/clang/single_dire_list.c.o: ../src/main/header/declaration.h
 
 CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o: ../src/main/clang/single_direction.c
 CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o: ../src/main/header/declaration.h

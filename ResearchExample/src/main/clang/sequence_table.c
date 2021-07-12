@@ -2,6 +2,9 @@
 
 #define MAXSIZE 20
 
+/**
+ * 顺序表
+ */
 typedef struct {
     int data[MAXSIZE];
     int length;

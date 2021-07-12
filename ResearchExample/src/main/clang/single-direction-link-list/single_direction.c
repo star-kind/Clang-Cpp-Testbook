@@ -1,7 +1,10 @@
-#include "../header/declaration.h"
+#include "../../header/declaration.h"
 
 #define length sizeof(node)
 
+/**
+ * 单链表
+ */
 typedef struct node {
     int data;
     struct node *next;

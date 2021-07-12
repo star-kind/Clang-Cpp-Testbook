@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_demo.c
+/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_dire_list.c
 ../header/declaration.h
 /home/user/admin/workspace/c_cpp/ResearchExample/src/main/header/declaration.h
 

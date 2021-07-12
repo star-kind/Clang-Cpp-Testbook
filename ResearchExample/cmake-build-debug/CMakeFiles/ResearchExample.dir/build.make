@@ -115,22 +115,9 @@ CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_case.c -o CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.s
 
-CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o: CMakeFiles/ResearchExample.dir/flags.make
-CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o: ../src/main/clang/pointer_demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_demo.c
-
-CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_demo.c > CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.i
-
-CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_demo.c -o CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.s
-
 CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o: CMakeFiles/ResearchExample.dir/flags.make
 CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o: ../src/main/clang/sequence_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/sequence_table.c
 
 CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.i: cmake_force
@@ -141,41 +128,68 @@ CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/sequence_table.c -o CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.s
 
-CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o: CMakeFiles/ResearchExample.dir/flags.make
-CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o: ../src/main/clang/single_direction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction.c
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.o: CMakeFiles/ResearchExample.dir/flags.make
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.o: ../src/main/clang/single-direction-link-list/single_dire_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.o -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_dire_list.c
 
-CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction.c > CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.i
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_dire_list.c > CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.i
 
-CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction.c -o CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.s
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_dire_list.c -o CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.s
 
-CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.o: CMakeFiles/ResearchExample.dir/flags.make
-CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.o: ../src/main/clang/single_direction_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.o -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction_1.c
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.o: CMakeFiles/ResearchExample.dir/flags.make
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.o: ../src/main/clang/single-direction-link-list/single_direction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.o -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction.c
 
-CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction_1.c > CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.i
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction.c > CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.i
 
-CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction_1.c -o CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.s
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction.c -o CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.s
+
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.o: CMakeFiles/ResearchExample.dir/flags.make
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.o: ../src/main/clang/single-direction-link-list/single_direction_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.o -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction_1.c
+
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction_1.c > CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.i
+
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction_1.c -o CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.s
+
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.o: CMakeFiles/ResearchExample.dir/flags.make
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.o: ../src/main/clang/single-direction-link-list/single_list_demo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.o -c /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_list_demo.c
+
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_list_demo.c > CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.i
+
+CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_list_demo.c -o CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.s
 
 # Object files for target ResearchExample
 ResearchExample_OBJECTS = \
 "CMakeFiles/ResearchExample.dir/main.c.o" \
 "CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o" \
 "CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o" \
-"CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o" \
 "CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o" \
-"CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o" \
-"CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.o"
+"CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.o" \
+"CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.o" \
+"CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.o" \
+"CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.o"
 
 # External object files for target ResearchExample
 ResearchExample_EXTERNAL_OBJECTS =
@@ -183,13 +197,14 @@ ResearchExample_EXTERNAL_OBJECTS =
 ResearchExample: CMakeFiles/ResearchExample.dir/main.c.o
 ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o
 ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o
-ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o
 ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o
-ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o
-ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.o
+ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.o
+ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.o
+ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.o
+ResearchExample: CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.o
 ResearchExample: CMakeFiles/ResearchExample.dir/build.make
 ResearchExample: CMakeFiles/ResearchExample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable ResearchExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable ResearchExample"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ResearchExample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

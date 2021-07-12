@@ -16,4 +16,5 @@ void sequence_table_exports();
 void single_direction_export();
 void single_direction_export_1();
 
+void _single_dire_list();
 #endif //RESEARCHEXAMPLE_DECLARATION_H

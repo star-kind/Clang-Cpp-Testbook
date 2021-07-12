@@ -85,16 +85,19 @@
 		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_case.c">
 			<Option target="ResearchExample"/>
 		</Unit>
-		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_demo.c">
-			<Option target="ResearchExample"/>
-		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/sequence_table.c">
 			<Option target="ResearchExample"/>
 		</Unit>
-		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction.c">
+		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_dire_list.c">
 			<Option target="ResearchExample"/>
 		</Unit>
-		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction_1.c">
+		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction.c">
+			<Option target="ResearchExample"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction_1.c">
+			<Option target="ResearchExample"/>
+		</Unit>
+		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_list_demo.c">
 			<Option target="ResearchExample"/>
 		</Unit>
 		<Unit filename="/home/user/admin/workspace/c_cpp/ResearchExample/CMakeLists.txt">

@@ -7,10 +7,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/user/admin/workspace/c_cpp/ResearchExample/main.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/main.c.o"
   "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/get_string.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.o"
   "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_case.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.o"
-  "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/pointer_demo.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o"
   "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/sequence_table.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.o"
-  "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o"
-  "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single_direction_1.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.o"
+  "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_dire_list.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.o"
+  "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.o"
+  "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_direction_1.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.o"
+  "/home/user/admin/workspace/c_cpp/ResearchExample/src/main/clang/single-direction-link-list/single_list_demo.c" "/home/user/admin/workspace/c_cpp/ResearchExample/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -223,33 +223,6 @@ src/main/clang/pointer_case.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.s
 .PHONY : src/main/clang/pointer_case.c.s
 
-src/main/clang/pointer_demo.o: src/main/clang/pointer_demo.c.o
-
-.PHONY : src/main/clang/pointer_demo.o
-
-# target to build an object file
-src/main/clang/pointer_demo.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.o
-.PHONY : src/main/clang/pointer_demo.c.o
-
-src/main/clang/pointer_demo.i: src/main/clang/pointer_demo.c.i
-
-.PHONY : src/main/clang/pointer_demo.i
-
-# target to preprocess a source file
-src/main/clang/pointer_demo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.i
-.PHONY : src/main/clang/pointer_demo.c.i
-
-src/main/clang/pointer_demo.s: src/main/clang/pointer_demo.c.s
-
-.PHONY : src/main/clang/pointer_demo.s
-
-# target to generate assembly for a file
-src/main/clang/pointer_demo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/pointer_demo.c.s
-.PHONY : src/main/clang/pointer_demo.c.s
-
 src/main/clang/sequence_table.o: src/main/clang/sequence_table.c.o
 
 .PHONY : src/main/clang/sequence_table.o
@@ -277,59 +250,113 @@ src/main/clang/sequence_table.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.s
 .PHONY : src/main/clang/sequence_table.c.s
 
-src/main/clang/single_direction.o: src/main/clang/single_direction.c.o
+src/main/clang/single-direction-link-list/single_dire_list.o: src/main/clang/single-direction-link-list/single_dire_list.c.o
 
-.PHONY : src/main/clang/single_direction.o
-
-# target to build an object file
-src/main/clang/single_direction.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.o
-.PHONY : src/main/clang/single_direction.c.o
-
-src/main/clang/single_direction.i: src/main/clang/single_direction.c.i
-
-.PHONY : src/main/clang/single_direction.i
-
-# target to preprocess a source file
-src/main/clang/single_direction.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.i
-.PHONY : src/main/clang/single_direction.c.i
-
-src/main/clang/single_direction.s: src/main/clang/single_direction.c.s
-
-.PHONY : src/main/clang/single_direction.s
-
-# target to generate assembly for a file
-src/main/clang/single_direction.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single_direction.c.s
-.PHONY : src/main/clang/single_direction.c.s
-
-src/main/clang/single_direction_1.o: src/main/clang/single_direction_1.c.o
-
-.PHONY : src/main/clang/single_direction_1.o
+.PHONY : src/main/clang/single-direction-link-list/single_dire_list.o
 
 # target to build an object file
-src/main/clang/single_direction_1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.o
-.PHONY : src/main/clang/single_direction_1.c.o
+src/main/clang/single-direction-link-list/single_dire_list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.o
+.PHONY : src/main/clang/single-direction-link-list/single_dire_list.c.o
 
-src/main/clang/single_direction_1.i: src/main/clang/single_direction_1.c.i
+src/main/clang/single-direction-link-list/single_dire_list.i: src/main/clang/single-direction-link-list/single_dire_list.c.i
 
-.PHONY : src/main/clang/single_direction_1.i
+.PHONY : src/main/clang/single-direction-link-list/single_dire_list.i
 
 # target to preprocess a source file
-src/main/clang/single_direction_1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.i
-.PHONY : src/main/clang/single_direction_1.c.i
+src/main/clang/single-direction-link-list/single_dire_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.i
+.PHONY : src/main/clang/single-direction-link-list/single_dire_list.c.i
 
-src/main/clang/single_direction_1.s: src/main/clang/single_direction_1.c.s
+src/main/clang/single-direction-link-list/single_dire_list.s: src/main/clang/single-direction-link-list/single_dire_list.c.s
 
-.PHONY : src/main/clang/single_direction_1.s
+.PHONY : src/main/clang/single-direction-link-list/single_dire_list.s
 
 # target to generate assembly for a file
-src/main/clang/single_direction_1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single_direction_1.c.s
-.PHONY : src/main/clang/single_direction_1.c.s
+src/main/clang/single-direction-link-list/single_dire_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_dire_list.c.s
+.PHONY : src/main/clang/single-direction-link-list/single_dire_list.c.s
+
+src/main/clang/single-direction-link-list/single_direction.o: src/main/clang/single-direction-link-list/single_direction.c.o
+
+.PHONY : src/main/clang/single-direction-link-list/single_direction.o
+
+# target to build an object file
+src/main/clang/single-direction-link-list/single_direction.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.o
+.PHONY : src/main/clang/single-direction-link-list/single_direction.c.o
+
+src/main/clang/single-direction-link-list/single_direction.i: src/main/clang/single-direction-link-list/single_direction.c.i
+
+.PHONY : src/main/clang/single-direction-link-list/single_direction.i
+
+# target to preprocess a source file
+src/main/clang/single-direction-link-list/single_direction.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.i
+.PHONY : src/main/clang/single-direction-link-list/single_direction.c.i
+
+src/main/clang/single-direction-link-list/single_direction.s: src/main/clang/single-direction-link-list/single_direction.c.s
+
+.PHONY : src/main/clang/single-direction-link-list/single_direction.s
+
+# target to generate assembly for a file
+src/main/clang/single-direction-link-list/single_direction.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction.c.s
+.PHONY : src/main/clang/single-direction-link-list/single_direction.c.s
+
+src/main/clang/single-direction-link-list/single_direction_1.o: src/main/clang/single-direction-link-list/single_direction_1.c.o
+
+.PHONY : src/main/clang/single-direction-link-list/single_direction_1.o
+
+# target to build an object file
+src/main/clang/single-direction-link-list/single_direction_1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.o
+.PHONY : src/main/clang/single-direction-link-list/single_direction_1.c.o
+
+src/main/clang/single-direction-link-list/single_direction_1.i: src/main/clang/single-direction-link-list/single_direction_1.c.i
+
+.PHONY : src/main/clang/single-direction-link-list/single_direction_1.i
+
+# target to preprocess a source file
+src/main/clang/single-direction-link-list/single_direction_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.i
+.PHONY : src/main/clang/single-direction-link-list/single_direction_1.c.i
+
+src/main/clang/single-direction-link-list/single_direction_1.s: src/main/clang/single-direction-link-list/single_direction_1.c.s
+
+.PHONY : src/main/clang/single-direction-link-list/single_direction_1.s
+
+# target to generate assembly for a file
+src/main/clang/single-direction-link-list/single_direction_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_direction_1.c.s
+.PHONY : src/main/clang/single-direction-link-list/single_direction_1.c.s
+
+src/main/clang/single-direction-link-list/single_list_demo.o: src/main/clang/single-direction-link-list/single_list_demo.c.o
+
+.PHONY : src/main/clang/single-direction-link-list/single_list_demo.o
+
+# target to build an object file
+src/main/clang/single-direction-link-list/single_list_demo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.o
+.PHONY : src/main/clang/single-direction-link-list/single_list_demo.c.o
+
+src/main/clang/single-direction-link-list/single_list_demo.i: src/main/clang/single-direction-link-list/single_list_demo.c.i
+
+.PHONY : src/main/clang/single-direction-link-list/single_list_demo.i
+
+# target to preprocess a source file
+src/main/clang/single-direction-link-list/single_list_demo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.i
+.PHONY : src/main/clang/single-direction-link-list/single_list_demo.c.i
+
+src/main/clang/single-direction-link-list/single_list_demo.s: src/main/clang/single-direction-link-list/single_list_demo.c.s
+
+.PHONY : src/main/clang/single-direction-link-list/single_list_demo.s
+
+# target to generate assembly for a file
+src/main/clang/single-direction-link-list/single_list_demo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ResearchExample.dir/build.make CMakeFiles/ResearchExample.dir/src/main/clang/single-direction-link-list/single_list_demo.c.s
+.PHONY : src/main/clang/single-direction-link-list/single_list_demo.c.s
 
 # Help Target
 help:
@@ -349,18 +376,21 @@ help:
 	@echo "... src/main/clang/pointer_case.o"
 	@echo "... src/main/clang/pointer_case.i"
 	@echo "... src/main/clang/pointer_case.s"
-	@echo "... src/main/clang/pointer_demo.o"
-	@echo "... src/main/clang/pointer_demo.i"
-	@echo "... src/main/clang/pointer_demo.s"
 	@echo "... src/main/clang/sequence_table.o"
 	@echo "... src/main/clang/sequence_table.i"
 	@echo "... src/main/clang/sequence_table.s"
-	@echo "... src/main/clang/single_direction.o"
-	@echo "... src/main/clang/single_direction.i"
-	@echo "... src/main/clang/single_direction.s"
-	@echo "... src/main/clang/single_direction_1.o"
-	@echo "... src/main/clang/single_direction_1.i"
-	@echo "... src/main/clang/single_direction_1.s"
+	@echo "... src/main/clang/single-direction-link-list/single_dire_list.o"
+	@echo "... src/main/clang/single-direction-link-list/single_dire_list.i"
+	@echo "... src/main/clang/single-direction-link-list/single_dire_list.s"
+	@echo "... src/main/clang/single-direction-link-list/single_direction.o"
+	@echo "... src/main/clang/single-direction-link-list/single_direction.i"
+	@echo "... src/main/clang/single-direction-link-list/single_direction.s"
+	@echo "... src/main/clang/single-direction-link-list/single_direction_1.o"
+	@echo "... src/main/clang/single-direction-link-list/single_direction_1.i"
+	@echo "... src/main/clang/single-direction-link-list/single_direction_1.s"
+	@echo "... src/main/clang/single-direction-link-list/single_list_demo.o"
+	@echo "... src/main/clang/single-direction-link-list/single_list_demo.i"
+	@echo "... src/main/clang/single-direction-link-list/single_list_demo.s"
 .PHONY : help
 
 

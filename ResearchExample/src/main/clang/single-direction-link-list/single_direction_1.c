@@ -1,7 +1,10 @@
-#include "../header/declaration.h"
+#include "../../header/declaration.h"
 
 #define length sizeof(node)
 
+/**
+ * 单链表-1
+ */
 typedef struct node {
     int data;
     struct node *next;
@@ -48,8 +51,8 @@ node *get_res_list() {
  */
 void single_direction_export_1() {
     struct node *res_ptr;
-    res_ptr = get_res_list();
 
+    res_ptr = get_res_list();
     ergodic_1(res_ptr);
 }
 
