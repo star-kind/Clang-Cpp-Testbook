@@ -18,4 +18,6 @@ void single_direction_export();
 void single_direction_export_1();
 
 void _single_dire_list();
+
+void _s_l_d_this_export();
 #endif //RESEARCHEXAMPLE_DECLARATION_H

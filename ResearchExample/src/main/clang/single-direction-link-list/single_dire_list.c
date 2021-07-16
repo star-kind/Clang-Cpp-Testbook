@@ -3,7 +3,7 @@
 #define N 5
 
 /**
- * 单向链表,有瑕疵(首节点为0)
+ * 单向链表
  */
 typedef struct SINGLE_LINK {
     int elem;
@@ -22,6 +22,9 @@ SINGLE_LINK *create_link_function(int number_array[]) {
         end = node;
     }
     end->next = NULL;
+
+    //remove the first address::node
+    head = head->next;
     return head;
 }
 
@@ -54,11 +57,16 @@ SINGLE_LINK *insert_link_function(SINGLE_LINK *list) {
     return list;
 }
 
+/**
+ * mark deleted object start from zero
+ * @param list
+ * @return
+ */
 SINGLE_LINK *delete_link_function(SINGLE_LINK *list) {
     SINGLE_LINK *temp = list;
     int n;
 
-    printf("enter postion you want to delete\n");
+    printf("enter postion you want to delete(start from zero):\n");
     scanf("%d", &n);
 
     for (int i = 0; i < n - 1; i++) {
@@ -81,7 +89,7 @@ void ergodic_printf(SINGLE_LINK *list) {
 
 void _single_dire_list() {
     SINGLE_LINK *link;
-    int num_array[N] = {11, 24, 88, 164, 260};
+    int num_array[N] = {1, 2, 3, 4, 5};
 
     link = create_link_function(num_array);
     ergodic_printf(link);

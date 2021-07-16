@@ -5,8 +5,12 @@ typedef struct LinkList {
     struct LinkList *next;
 } link_list;
 
-link_list *initialize
-        (link_list *list) {
+/**
+ * single direction link list initialization
+ * @param list
+ * @return
+ */
+link_list *initialize(link_list *list) {
     list = (link_list *) malloc(sizeof(link_list));
     if (list == NULL) {
         printf("list==NULL");
@@ -17,6 +21,10 @@ link_list *initialize
     return list;
 }
 
+/**
+ * ergodic prints this link list
+ * @param list
+ */
 void ergodic_print_ls(link_list *list) {
     link_list *p1;
     p1 = list->next;
@@ -33,7 +41,11 @@ void ergodic_print_ls(link_list *list) {
     printf("\n");
 }
 
-//基于头插法创建
+/**
+ * 基于头插法创建
+ * @param list
+ * @return
+ */
 link_list *created_base_on_head(link_list *list) {
     //输入 quantum 个元素的值,建立到头结点的单链表
     int quantum;
@@ -68,7 +80,11 @@ link_list *created_base_on_head(link_list *list) {
     return list;
 }
 
-//尾插法创建单链表
+/**
+ * 尾插法创建单链表
+ * @param list
+ * @return
+ */
 link_list *create_base_on_rears(link_list *list) {
     //输入 quantity 个元素值,建立带头结点的单链表
     int quantity;
@@ -100,7 +116,12 @@ link_list *create_base_on_rears(link_list *list) {
     return list;
 }
 
-/*单链表中取值,查找第 i 个元素，用 e 记录第 i 个元素的值*/
+/**
+ * 单链表中取值,查找第 i 个元素，用 e 记录第 i 个元素的值
+ * @param list
+ * @param i
+ * @return
+ */
 int get_position_elem(link_list *list, int i) {
     int j = 1, e;//j是计数器
 
@@ -127,7 +148,11 @@ int get_position_elem(link_list *list, int i) {
     return e;
 }
 
-//查找值为e的元素
+/**
+ * 查找值为e的元素
+ * @param list
+ * @return
+ */
 bool locate_elem_by_value(link_list *list) {
     bool res;
     int e, i = 1;
@@ -156,10 +181,15 @@ bool locate_elem_by_value(link_list *list) {
     return res;
 }
 
-//在第pos位置之前插入e值
-//return a Boolean Value prove whether the operation was successful
-void insert_before_position(link_list *list) {
+/**
+ * 在第pos位置之前插入e值<br>
+ * return a Boolean Value prove whether the operation was successful
+ * @param list
+ * @return
+ */
+bool insert_before_position(link_list *list) {
     int j = 0, pos, e;
+    bool sign = true;
     link_list *ptr, *s;
     ptr = list;
 
@@ -175,7 +205,8 @@ void insert_before_position(link_list *list) {
     //pos greater than (list.size+1) or pos less than 1
     if (!ptr || j > pos - 1) {
         printf("\nthis insertion position isn't correct\n");
-        exit(0);
+        sign = false;
+        return sign;
     }
 
     s = (link_list *) malloc(sizeof(link_list));
@@ -189,6 +220,48 @@ void insert_before_position(link_list *list) {
     //make pointer-region of node PTR points to the node S
     ptr->next = s;
 
+    return sign;
+}
+
+/**
+ * delete function of single direction link list<br>
+ * return a boolean value prove whether the operation was successful or failure<br>
+ * delete the node position that order is pos
+ * @param list
+ * @return
+ */
+bool delete_ele_link_list(link_list *list) {
+    bool proved = true;
+    link_list *ptr, *tmp;
+    int j = 0, pos;
+
+    ptr = list;
+
+    printf("please enter the delete position that you want\n");
+    scanf("%d", &pos);
+
+    //search the node that position order is (pos-1),ptr points to it
+    while ((ptr->next) && (j < pos - 1)) {
+        ptr = ptr->next;
+        j++;
+    }
+
+    //the position of delete that you want is illogical,when pos greater than list size or pos less than 1
+    if (!(ptr->next) || (j > pos - 1)) {
+        proved = false;
+        return proved;
+    }
+
+    //temporary save address of node that deleted,for release it space
+    tmp = ptr->next;
+
+    //giving next one node address of node tmp to pointer region of node ptr
+    ptr->next = tmp->next;
+
+    //release space of deleted node
+    free(tmp);
+
+    return proved;
 }
 
 void _s_l_d_this_export() {
@@ -201,8 +274,16 @@ void _s_l_d_this_export() {
     ergodic_print_ls(list);
 
 //    int res = get_position_elem(list, 7);
-//    printf("get element res:%d\n", res);
+//    printf("get element res:%d\n", res);s
 
-    bool r = locate_elem_by_value(list);
-    printf("the value whether or not exist:%d\n", r);
+//    bool r = locate_elem_by_value(list);
+//    printf("the value whether or not exist:%d\n", r);
+
+//    bool sign_res = insert_before_position(list);
+//    printf("is the operation successful:%d\n", sign_res);
+//    ergodic_print_ls(list);
+
+    bool flag = delete_ele_link_list(list);
+    printf("the deletes operation result:%d\n", flag);
+    ergodic_print_ls(list);
 }
