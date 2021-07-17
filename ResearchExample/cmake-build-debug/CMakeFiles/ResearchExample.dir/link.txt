@@ -1,3 +1,3 @@
-"D:\ProgramFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ResearchExample.dir/objects.a
-D:\ProgramFiles\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\ResearchExample.dir/objects.a @CMakeFiles\ResearchExample.dir\objects1.rsp
-D:\ProgramFiles\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\ResearchExample.dir/objects.a -Wl,--no-whole-archive -o ResearchExample.exe -Wl,--out-implib,libResearchExample.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ResearchExample.dir\linklibs.rsp
+"D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ResearchExample.dir/objects.a
+D:\c-compiler\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\ResearchExample.dir/objects.a @CMakeFiles\ResearchExample.dir\objects1.rsp
+D:\c-compiler\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\ResearchExample.dir/objects.a -Wl,--no-whole-archive -o ResearchExample.exe -Wl,--out-implib,libResearchExample.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ResearchExample.dir\linklibs.rsp

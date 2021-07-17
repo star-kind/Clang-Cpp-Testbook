@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/workspaces/clang-cpp/ResearchExample/src/main/clang/single-direction-link-list/single_dire_list.c
+D:/workspace/clang-cpp/ResearchExample/src/main/clang/double-direction/demonstrate.c
 ../../header/declaration.h
-D:/workspaces/clang-cpp/ResearchExample/src/main/header/declaration.h
+D:/workspace/clang-cpp/ResearchExample/src/main/header/declaration.h
 
-D:/workspaces/clang-cpp/ResearchExample/src/main/header/declaration.h
+D:/workspace/clang-cpp/ResearchExample/src/main/header/declaration.h
 stdio.h
 -
 ctype.h

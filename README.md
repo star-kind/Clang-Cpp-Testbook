@@ -1,4 +1,7 @@
-# C/C++ 项目空间
+# Clang/Cpp-Testbook
+
+	some CS exercises at college, mainly clang.
+
 
 * 通讯录项目(TeleList)  
 
@@ -16,4 +19,5 @@
 
 * 小型web服务器(web-server-project)  
 
-* 各种研究示例(ResearchExample)
+* 研究示例(ResearchExample)
+&ensp;&ensp;&ensp;&ensp;Explain the Data Structure mainly in Clanguage

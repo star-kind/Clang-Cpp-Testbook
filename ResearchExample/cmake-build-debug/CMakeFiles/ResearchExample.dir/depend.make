@@ -4,6 +4,9 @@
 CMakeFiles/ResearchExample.dir/main.c.obj: ../main.c
 CMakeFiles/ResearchExample.dir/main.c.obj: ../src/main/header/declaration.h
 
+CMakeFiles/ResearchExample.dir/src/main/clang/double-direction/demonstrate.c.obj: ../src/main/clang/double-direction/demonstrate.c
+CMakeFiles/ResearchExample.dir/src/main/clang/double-direction/demonstrate.c.obj: ../src/main/header/declaration.h
+
 CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.obj: ../src/main/clang/get_string.c
 CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.obj: ../src/main/header/declaration.h
 

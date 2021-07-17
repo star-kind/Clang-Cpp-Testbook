@@ -15,7 +15,6 @@ link_list *initialize(link_list *list) {
     if (list == NULL) {
         printf("list==NULL");
         return 0;
-
     }
     list->next = NULL;
     return list;

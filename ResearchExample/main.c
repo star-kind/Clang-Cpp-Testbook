@@ -1,6 +1,6 @@
 #include "src/main/header/declaration.h"
 
 int main() {
-    _single_dire_list();
+    double_main_export();
     return 0;
 }

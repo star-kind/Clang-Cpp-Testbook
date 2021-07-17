@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\ProgramFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\ProgramFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\workspaces\clang-cpp\ResearchExample
+CMAKE_SOURCE_DIR = D:\workspace\clang-cpp\ResearchExample
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\workspaces\clang-cpp\ResearchExample\cmake-build-debug
+CMAKE_BINARY_DIR = D:\workspace\clang-cpp\ResearchExample\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = D:\workspaces\clang-cpp\ResearchExample\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\ProgramFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\ProgramFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspaces\clang-cpp\ResearchExample\cmake-build-debug\CMakeFiles D:\workspaces\clang-cpp\ResearchExample\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\clang-cpp\ResearchExample\cmake-build-debug\CMakeFiles D:\workspace\clang-cpp\ResearchExample\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspaces\clang-cpp\ResearchExample\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\clang-cpp\ResearchExample\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -167,6 +167,33 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ResearchExample.dir\build.make CMakeFiles/ResearchExample.dir/main.c.s
 .PHONY : main.c.s
+
+src/main/clang/double-direction/demonstrate.obj: src/main/clang/double-direction/demonstrate.c.obj
+
+.PHONY : src/main/clang/double-direction/demonstrate.obj
+
+# target to build an object file
+src/main/clang/double-direction/demonstrate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ResearchExample.dir\build.make CMakeFiles/ResearchExample.dir/src/main/clang/double-direction/demonstrate.c.obj
+.PHONY : src/main/clang/double-direction/demonstrate.c.obj
+
+src/main/clang/double-direction/demonstrate.i: src/main/clang/double-direction/demonstrate.c.i
+
+.PHONY : src/main/clang/double-direction/demonstrate.i
+
+# target to preprocess a source file
+src/main/clang/double-direction/demonstrate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ResearchExample.dir\build.make CMakeFiles/ResearchExample.dir/src/main/clang/double-direction/demonstrate.c.i
+.PHONY : src/main/clang/double-direction/demonstrate.c.i
+
+src/main/clang/double-direction/demonstrate.s: src/main/clang/double-direction/demonstrate.c.s
+
+.PHONY : src/main/clang/double-direction/demonstrate.s
+
+# target to generate assembly for a file
+src/main/clang/double-direction/demonstrate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ResearchExample.dir\build.make CMakeFiles/ResearchExample.dir/src/main/clang/double-direction/demonstrate.c.s
+.PHONY : src/main/clang/double-direction/demonstrate.c.s
 
 src/main/clang/get_string.obj: src/main/clang/get_string.c.obj
 
@@ -369,6 +396,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/main/clang/double-direction/demonstrate.obj
+	@echo ... src/main/clang/double-direction/demonstrate.i
+	@echo ... src/main/clang/double-direction/demonstrate.s
 	@echo ... src/main/clang/get_string.obj
 	@echo ... src/main/clang/get_string.i
 	@echo ... src/main/clang/get_string.s

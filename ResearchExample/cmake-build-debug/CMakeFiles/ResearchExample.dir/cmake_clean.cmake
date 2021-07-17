@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ResearchExample.dir/main.c.obj"
+  "CMakeFiles/ResearchExample.dir/src/main/clang/double-direction/demonstrate.c.obj"
   "CMakeFiles/ResearchExample.dir/src/main/clang/get_string.c.obj"
   "CMakeFiles/ResearchExample.dir/src/main/clang/pointer_case.c.obj"
   "CMakeFiles/ResearchExample.dir/src/main/clang/sequence_table.c.obj"

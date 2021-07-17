@@ -5,5 +5,6 @@ set(CMAKE_C_STANDARD 99)
 
 file(GLOB SRC_LIST "src/main/clang/*.c")
 file(GLOB SRC_LIST_1 "src/main/clang/single-direction-link-list/*.c")
+file(GLOB SRC_LIST_2 "src/main/clang/double-direction/*.c")
 
-add_executable(ResearchExample main.c ${SRC_LIST} ${SRC_LIST_1})
+add_executable(ResearchExample main.c ${SRC_LIST} ${SRC_LIST_1} ${SRC_LIST_2})
