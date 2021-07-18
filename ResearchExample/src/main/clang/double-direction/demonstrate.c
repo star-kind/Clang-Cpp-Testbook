@@ -9,7 +9,7 @@ typedef struct DoubleDirectionLinkList {
     struct DoubleDirectionLinkList *prior, *next;
 } double_link;
 
-void prints_d_l(double_link *list) {
+void head_prints_d_l(double_link *list) {
     double_link *p;
     p = list->next;
     printf("double linked list print exhibiting:\n");
@@ -21,6 +21,22 @@ void prints_d_l(double_link *list) {
         p = p->next;
     }
     printf("\n");
+}
+
+void rear_display(double_link *list) {
+    double_link *pr;
+    pr = list->next;
+    
+    while (pr) {
+        printf("%c\t", pr->data);
+        pr = pr->next;
+        //if pr->next become NULL
+        if (!pr->next) {
+            //the last data region in pr
+            printf("\t%c", pr->data);
+            return;
+        }
+    }
 }
 
 double_link *list_initialization() {
@@ -71,11 +87,39 @@ double_link *create_with_head(double_link *list) {
     return list;
 }
 
+double_link *create_with_rear(double_link *list) {
+    int scope_num;
+    double_link *tmp, *p;
+
+    p = list = (double_link *) malloc(sizeof(double_link));
+
+    printf("please enter scope number of link list elements:\n");
+    scanf("%d", &scope_num);
+
+    printf("please enter many link list elements value,uses space key separate:\n");
+    for (int i = 0; i < scope_num; i++) {
+        tmp = (double_link *) malloc(sizeof(double_link));
+        scanf(" %c", &tmp->data);
+
+        //new node connect with last one node of link list
+        p->next = tmp;
+        tmp->prior = p;
+
+        //p alaways pointing to the last one node of link list
+        p = p->next;
+    }
+    p->next = '\0';
+    return list;
+}
+
 void double_main_export() {
     double_link *list = list_initialization();
 //    printf("initialization: %p\n", list);
 //    printf("initialization: %p\n", *list);
 
-    list = create_with_head(list);
-    prints_d_l(list);
+//    list = create_with_head(list);
+//    head_prints_d_l(list);
+
+    list = create_with_rear(list);
+    rear_display(list);
 }

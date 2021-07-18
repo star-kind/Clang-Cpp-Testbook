@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/workspace/clang-cpp/ResearchExample/src/main/clang/double-direction/demonstrate.c
+D:/SHDownload/pic/Clang-Cpp-Testbook/ResearchExample/src/main/clang/double-direction/demonstrate.c
 ../../header/declaration.h
-D:/workspace/clang-cpp/ResearchExample/src/main/header/declaration.h
+D:/SHDownload/pic/Clang-Cpp-Testbook/ResearchExample/src/main/header/declaration.h
 
-D:/workspace/clang-cpp/ResearchExample/src/main/header/declaration.h
+D:/SHDownload/pic/Clang-Cpp-Testbook/ResearchExample/src/main/header/declaration.h
 stdio.h
 -
 ctype.h
