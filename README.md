@@ -3,24 +3,35 @@
 	some CS exercises at college, mainly clang.
 
 
-* 通讯录项目(TeleList)  
 
-&ensp;&ensp;&ensp;&ensp;C语言版简易通讯录
 
-* 学生信息数据管理系统(StudentDataBase)  
+* (TeleList)  
 
-&ensp;&ensp;&ensp;&ensp;C语言版学生信息数据简易管理系统
+&ensp;&ensp;&ensp;&ensp;Telephone List Manage Syatem
 
-* 数据结构之线性链表(LinkedList)  
+* (StudentDataBase)  
 
-* 数据结构之单向链表(link-list-demo)
+&ensp;&ensp;&ensp;&ensp;Students Data Manage Syatem
 
-* web客户端(socket-cilent)  
+* (LinkedList)  
 
-* 小型web服务器(web-server-project)  
+&ensp;&ensp;&ensp;&ensp;DataStructure->LinearList->LinkedList
 
-* 研究示例(ResearchExample)  
+* (link-list-demo)  
+
+&ensp;&ensp;&ensp;&ensp;DataStructure->SingleDirectionLinkedList Demo
+
+* (socket-cilent)  
+
+&ensp;&ensp;&ensp;&ensp;websever socket cilent
+
+* (web-server-project)  
+
+&ensp;&ensp;&ensp;&ensp;Small Scale Web Server
+
+* (ResearchExample)  
 &ensp;&ensp;&ensp;&ensp;Explain the Data Structure mainly in Clanguage  
+&ensp;&ensp;some short demo writtern in clanguage
 
 * data-structure  
 &ensp;&ensp;&ensp;&ensp;this project is mainly about data structure course.  
