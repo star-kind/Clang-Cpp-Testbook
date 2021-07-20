@@ -1,10 +1,10 @@
-"D:\Program Files (x86)\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\SHDownload\pic\Clang-Cpp-Testbook\ResearchExample
+"D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\workspace\Clang-Cpp-Testbook\ResearchExample
 -- The C compiler identification is GNU 8.1.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: D:/Program Files (x86)/mingw64/bin/gcc.exe - skipped
+-- Check for working C compiler: D:/programs/compiler/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/SHDownload/pic/Clang-Cpp-Testbook/ResearchExample/cmake-build-debug
+-- Build files have been written to: D:/workspace/Clang-Cpp-Testbook/ResearchExample/cmake-build-debug

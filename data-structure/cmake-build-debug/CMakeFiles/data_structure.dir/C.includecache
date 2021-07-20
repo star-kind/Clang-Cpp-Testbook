@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c
+../../../header/exports_declaration.h
+D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+
+D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+./linear-tbl/linear_declaration.h
+D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+
+D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+stdio.h
+-
+ctype.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+malloc.h
+-
+

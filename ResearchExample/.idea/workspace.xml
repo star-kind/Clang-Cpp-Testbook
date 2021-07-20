@@ -16,10 +16,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f7ad959-9d4a-44d6-8af3-65502c6ec819" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ResearchExample.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ResearchExample.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/double-direction/demonstrate.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ResearchExample.dir/src/main/clang/double-direction/demonstrate.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ResearchExample.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ResearchExample.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/clang/double-direction/demonstrate.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/clang/double-direction/demonstrate.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,17 +65,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="CMake Application.ResearchExample">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ResearchExample" RUN_TARGET_NAME="ResearchExample" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ResearchExample" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ResearchExample" TARGET_NAME="ResearchExample" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ResearchExample" RUN_TARGET_NAME="ResearchExample">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -140,6 +136,7 @@
       <workItem from="1626404172921" duration="10833000" />
       <workItem from="1626495032672" duration="17160000" />
       <workItem from="1626578831797" duration="14752000" />
+      <workItem from="1626746007108" duration="1327000" />
     </task>
     <servers />
   </component>

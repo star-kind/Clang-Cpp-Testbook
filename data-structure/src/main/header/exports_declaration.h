@@ -1,0 +1,6 @@
+#include "./linear-tbl/linear_declaration.h"
+
+#ifndef DATA_STRUCTURE_EXPORTS_DECLARATION_H
+#define DATA_STRUCTURE_EXPORTS_DECLARATION_H
+
+#endif //DATA_STRUCTURE_EXPORTS_DECLARATION_H
