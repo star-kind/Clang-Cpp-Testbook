@@ -110,7 +110,7 @@ double_link *create_with_rear(double_link *list) {
         p->next = tmp;
         tmp->prior = p;
 
-        //p alaways pointing to the last one node of link list
+        //p always pointing to the last one node of link list
         p = p->next;
     }
     p->next = '\0';

@@ -1,6 +1,6 @@
 #include "./src/main/header/exports_declaration.h"
 
 int main() {
-    _merge_seq_exports();
+    reverse_s_d_exports();
     return 0;
 }

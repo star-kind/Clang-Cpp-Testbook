@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c
+D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c
 ../../../header/exports_declaration.h
 D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 

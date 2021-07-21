@@ -7,11 +7,11 @@
 
 * (TeleList)  
 
-&ensp;&ensp;&ensp;&ensp;Telephone List Manage Syatem
+&ensp;&ensp;&ensp;&ensp;Telephone List Manage System
 
 * (StudentDataBase)  
 
-&ensp;&ensp;&ensp;&ensp;Students Data Manage Syatem
+&ensp;&ensp;&ensp;&ensp;Students Data Manage System
 
 * (LinkedList)  
 

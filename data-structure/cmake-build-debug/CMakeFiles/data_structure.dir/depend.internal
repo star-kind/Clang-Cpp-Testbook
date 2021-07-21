@@ -13,6 +13,14 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o
  D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c
  D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
  D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj
+ D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c
+ D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+ D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj
+ D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c
+ D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+ D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj
  D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c
  D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h

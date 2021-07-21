@@ -83,7 +83,7 @@ void ergodic_printf(SINGLE_LINK *list) {
         printf("%d\t", list->elem);
         list = list->next;
     }
-    printf("\tlast elemment:%d\t", list->elem);
+    printf("\tlast element:%d\t", list->elem);
     printf("\n");
 }
 

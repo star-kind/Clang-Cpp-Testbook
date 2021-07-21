@@ -179,6 +179,32 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.s"
 	D:\programs\compiler\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\Clang-Cpp-Testbook\data-structure\src\main\clang\linear-table\practise\merge_seq.c -o CMakeFiles\data_structure.dir\src\main\clang\linear-table\practise\merge_seq.c.s
 
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj: ../src/main/clang/linear-table/practise/merge_single_direction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj"
+	D:\programs\compiler\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\data_structure.dir\src\main\clang\linear-table\practise\merge_single_direction.c.obj -c D:\workspace\Clang-Cpp-Testbook\data-structure\src\main\clang\linear-table\practise\merge_single_direction.c
+
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.i"
+	D:\programs\compiler\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\Clang-Cpp-Testbook\data-structure\src\main\clang\linear-table\practise\merge_single_direction.c > CMakeFiles\data_structure.dir\src\main\clang\linear-table\practise\merge_single_direction.c.i
+
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.s"
+	D:\programs\compiler\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\Clang-Cpp-Testbook\data-structure\src\main\clang\linear-table\practise\merge_single_direction.c -o CMakeFiles\data_structure.dir\src\main\clang\linear-table\practise\merge_single_direction.c.s
+
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj: ../src/main/clang/linear-table/practise/reverse_single_direction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj"
+	D:\programs\compiler\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\data_structure.dir\src\main\clang\linear-table\practise\reverse_single_direction.c.obj -c D:\workspace\Clang-Cpp-Testbook\data-structure\src\main\clang\linear-table\practise\reverse_single_direction.c
+
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.i"
+	D:\programs\compiler\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\Clang-Cpp-Testbook\data-structure\src\main\clang\linear-table\practise\reverse_single_direction.c > CMakeFiles\data_structure.dir\src\main\clang\linear-table\practise\reverse_single_direction.c.i
+
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.s"
+	D:\programs\compiler\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\Clang-Cpp-Testbook\data-structure\src\main\clang\linear-table\practise\reverse_single_direction.c -o CMakeFiles\data_structure.dir\src\main\clang\linear-table\practise\reverse_single_direction.c.s
+
 # Object files for target data_structure
 data_structure_OBJECTS = \
 "CMakeFiles/data_structure.dir/main.c.obj" \
@@ -188,7 +214,9 @@ data_structure_OBJECTS = \
 "CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_list_demo.c.obj" \
 "CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.obj" \
 "CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj" \
-"CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj"
+"CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj" \
+"CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj" \
+"CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj"
 
 # External object files for target data_structure
 data_structure_EXTERNAL_OBJECTS =
@@ -201,11 +229,13 @@ data_structure.exe: CMakeFiles/data_structure.dir/src/main/clang/linear-table/si
 data_structure.exe: CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.obj
 data_structure.exe: CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj
 data_structure.exe: CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj
+data_structure.exe: CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj
+data_structure.exe: CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj
 data_structure.exe: CMakeFiles/data_structure.dir/build.make
 data_structure.exe: CMakeFiles/data_structure.dir/linklibs.rsp
 data_structure.exe: CMakeFiles/data_structure.dir/objects1.rsp
 data_structure.exe: CMakeFiles/data_structure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workspace\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable data_structure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workspace\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable data_structure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\data_structure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

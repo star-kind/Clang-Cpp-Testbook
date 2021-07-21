@@ -83,6 +83,12 @@
 		<Unit filename="D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c">
 			<Option target="data_structure"/>
 		</Unit>
+		<Unit filename="D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c">
+			<Option target="data_structure"/>
+		</Unit>
 		<Unit filename="D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c">
 			<Option target="data_structure"/>
 		</Unit>

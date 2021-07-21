@@ -22,4 +22,8 @@ void double_main_export();
 
 void _merge_seq_exports();
 
+void merge_s_d_exports();
+
+void reverse_s_d_exports();
+
 #endif //DATA_STRUCTURE_LINEAR_DECLARATION_H

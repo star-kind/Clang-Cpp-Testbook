@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/main.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj"
+  "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj"
+  "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_dire_list.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction.c.obj"

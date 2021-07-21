@@ -13,6 +13,14 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj: ../src/main/header/exports_declaration.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
 
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj: ../src/main/clang/linear-table/practise/merge_single_direction.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj: ../src/main/clang/linear-table/practise/reverse_single_direction.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj: ../src/main/clang/linear-table/sequence/sequence_table.c
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj: ../src/main/header/exports_declaration.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj: ../src/main/header/linear-tbl/linear_declaration.h

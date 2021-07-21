@@ -222,6 +222,60 @@ src/main/clang/linear-table/practise/merge_seq.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.s
 .PHONY : src/main/clang/linear-table/practise/merge_seq.c.s
 
+src/main/clang/linear-table/practise/merge_single_direction.obj: src/main/clang/linear-table/practise/merge_single_direction.c.obj
+
+.PHONY : src/main/clang/linear-table/practise/merge_single_direction.obj
+
+# target to build an object file
+src/main/clang/linear-table/practise/merge_single_direction.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj
+.PHONY : src/main/clang/linear-table/practise/merge_single_direction.c.obj
+
+src/main/clang/linear-table/practise/merge_single_direction.i: src/main/clang/linear-table/practise/merge_single_direction.c.i
+
+.PHONY : src/main/clang/linear-table/practise/merge_single_direction.i
+
+# target to preprocess a source file
+src/main/clang/linear-table/practise/merge_single_direction.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.i
+.PHONY : src/main/clang/linear-table/practise/merge_single_direction.c.i
+
+src/main/clang/linear-table/practise/merge_single_direction.s: src/main/clang/linear-table/practise/merge_single_direction.c.s
+
+.PHONY : src/main/clang/linear-table/practise/merge_single_direction.s
+
+# target to generate assembly for a file
+src/main/clang/linear-table/practise/merge_single_direction.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.s
+.PHONY : src/main/clang/linear-table/practise/merge_single_direction.c.s
+
+src/main/clang/linear-table/practise/reverse_single_direction.obj: src/main/clang/linear-table/practise/reverse_single_direction.c.obj
+
+.PHONY : src/main/clang/linear-table/practise/reverse_single_direction.obj
+
+# target to build an object file
+src/main/clang/linear-table/practise/reverse_single_direction.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj
+.PHONY : src/main/clang/linear-table/practise/reverse_single_direction.c.obj
+
+src/main/clang/linear-table/practise/reverse_single_direction.i: src/main/clang/linear-table/practise/reverse_single_direction.c.i
+
+.PHONY : src/main/clang/linear-table/practise/reverse_single_direction.i
+
+# target to preprocess a source file
+src/main/clang/linear-table/practise/reverse_single_direction.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.i
+.PHONY : src/main/clang/linear-table/practise/reverse_single_direction.c.i
+
+src/main/clang/linear-table/practise/reverse_single_direction.s: src/main/clang/linear-table/practise/reverse_single_direction.c.s
+
+.PHONY : src/main/clang/linear-table/practise/reverse_single_direction.s
+
+# target to generate assembly for a file
+src/main/clang/linear-table/practise/reverse_single_direction.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.s
+.PHONY : src/main/clang/linear-table/practise/reverse_single_direction.c.s
+
 src/main/clang/linear-table/sequence/sequence_table.obj: src/main/clang/linear-table/sequence/sequence_table.c.obj
 
 .PHONY : src/main/clang/linear-table/sequence/sequence_table.obj
@@ -375,6 +429,12 @@ help:
 	@echo ... src/main/clang/linear-table/practise/merge_seq.obj
 	@echo ... src/main/clang/linear-table/practise/merge_seq.i
 	@echo ... src/main/clang/linear-table/practise/merge_seq.s
+	@echo ... src/main/clang/linear-table/practise/merge_single_direction.obj
+	@echo ... src/main/clang/linear-table/practise/merge_single_direction.i
+	@echo ... src/main/clang/linear-table/practise/merge_single_direction.s
+	@echo ... src/main/clang/linear-table/practise/reverse_single_direction.obj
+	@echo ... src/main/clang/linear-table/practise/reverse_single_direction.i
+	@echo ... src/main/clang/linear-table/practise/reverse_single_direction.s
 	@echo ... src/main/clang/linear-table/sequence/sequence_table.obj
 	@echo ... src/main/clang/linear-table/sequence/sequence_table.i
 	@echo ... src/main/clang/linear-table/sequence/sequence_table.s
