@@ -26,4 +26,10 @@ void merge_s_d_exports();
 
 void reverse_s_d_exports();
 
+void find_middle_export();
+
+void find_from_bottom_export();
+
+void delete_duplicate_export();
+
 #endif //DATA_STRUCTURE_LINEAR_DECLARATION_H

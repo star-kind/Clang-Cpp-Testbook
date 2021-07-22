@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c
+D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c
 ../../../header/exports_declaration.h
-D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 
-D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 ./linear-tbl/linear_declaration.h
-D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
 
-D:/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
 stdio.h
 -
 ctype.h

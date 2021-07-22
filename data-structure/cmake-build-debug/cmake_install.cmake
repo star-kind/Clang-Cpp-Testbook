@@ -1,4 +1,4 @@
-# Install script for directory: D:/workspace/Clang-Cpp-Testbook/data-structure
+# Install script for directory: D:/Engineerings/Clang-Cpp-Testbook/data-structure
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/programs/compiler/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Programs/mingw-w64/x86_64-8.1.0-release-posix-rt_v6-rev0/mingw64/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Engineerings/Clang-Cpp-Testbook/data-structure/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

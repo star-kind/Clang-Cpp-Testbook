@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Programs\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Programs\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\workspace\Clang-Cpp-Testbook\data-structure
+CMAKE_SOURCE_DIR = D:\Engineerings\Clang-Cpp-Testbook\data-structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\workspace\Clang-Cpp-Testbook\data-structure\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Engineerings\Clang-Cpp-Testbook\data-structure\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = D:\workspace\Clang-Cpp-Testbook\data-structure\cmake-build-de
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Programs\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\programs\clions\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Programs\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles D:\workspace\Clang-Cpp-Testbook\data-structure\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Engineerings\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles D:\Engineerings\Clang-Cpp-Testbook\data-structure\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Engineerings\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,6 +194,87 @@ src/main/clang/linear-table/double-direction/demonstrate.s: src/main/clang/linea
 src/main/clang/linear-table/double-direction/demonstrate.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.s
 .PHONY : src/main/clang/linear-table/double-direction/demonstrate.c.s
+
+src/main/clang/linear-table/practise/del_repeat_s_d.obj: src/main/clang/linear-table/practise/del_repeat_s_d.c.obj
+
+.PHONY : src/main/clang/linear-table/practise/del_repeat_s_d.obj
+
+# target to build an object file
+src/main/clang/linear-table/practise/del_repeat_s_d.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.obj
+.PHONY : src/main/clang/linear-table/practise/del_repeat_s_d.c.obj
+
+src/main/clang/linear-table/practise/del_repeat_s_d.i: src/main/clang/linear-table/practise/del_repeat_s_d.c.i
+
+.PHONY : src/main/clang/linear-table/practise/del_repeat_s_d.i
+
+# target to preprocess a source file
+src/main/clang/linear-table/practise/del_repeat_s_d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.i
+.PHONY : src/main/clang/linear-table/practise/del_repeat_s_d.c.i
+
+src/main/clang/linear-table/practise/del_repeat_s_d.s: src/main/clang/linear-table/practise/del_repeat_s_d.c.s
+
+.PHONY : src/main/clang/linear-table/practise/del_repeat_s_d.s
+
+# target to generate assembly for a file
+src/main/clang/linear-table/practise/del_repeat_s_d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.s
+.PHONY : src/main/clang/linear-table/practise/del_repeat_s_d.c.s
+
+src/main/clang/linear-table/practise/find_from_bottom.obj: src/main/clang/linear-table/practise/find_from_bottom.c.obj
+
+.PHONY : src/main/clang/linear-table/practise/find_from_bottom.obj
+
+# target to build an object file
+src/main/clang/linear-table/practise/find_from_bottom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.obj
+.PHONY : src/main/clang/linear-table/practise/find_from_bottom.c.obj
+
+src/main/clang/linear-table/practise/find_from_bottom.i: src/main/clang/linear-table/practise/find_from_bottom.c.i
+
+.PHONY : src/main/clang/linear-table/practise/find_from_bottom.i
+
+# target to preprocess a source file
+src/main/clang/linear-table/practise/find_from_bottom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.i
+.PHONY : src/main/clang/linear-table/practise/find_from_bottom.c.i
+
+src/main/clang/linear-table/practise/find_from_bottom.s: src/main/clang/linear-table/practise/find_from_bottom.c.s
+
+.PHONY : src/main/clang/linear-table/practise/find_from_bottom.s
+
+# target to generate assembly for a file
+src/main/clang/linear-table/practise/find_from_bottom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.s
+.PHONY : src/main/clang/linear-table/practise/find_from_bottom.c.s
+
+src/main/clang/linear-table/practise/find_middle_node_s_d.obj: src/main/clang/linear-table/practise/find_middle_node_s_d.c.obj
+
+.PHONY : src/main/clang/linear-table/practise/find_middle_node_s_d.obj
+
+# target to build an object file
+src/main/clang/linear-table/practise/find_middle_node_s_d.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.obj
+.PHONY : src/main/clang/linear-table/practise/find_middle_node_s_d.c.obj
+
+src/main/clang/linear-table/practise/find_middle_node_s_d.i: src/main/clang/linear-table/practise/find_middle_node_s_d.c.i
+
+.PHONY : src/main/clang/linear-table/practise/find_middle_node_s_d.i
+
+# target to preprocess a source file
+src/main/clang/linear-table/practise/find_middle_node_s_d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.i
+.PHONY : src/main/clang/linear-table/practise/find_middle_node_s_d.c.i
+
+src/main/clang/linear-table/practise/find_middle_node_s_d.s: src/main/clang/linear-table/practise/find_middle_node_s_d.c.s
+
+.PHONY : src/main/clang/linear-table/practise/find_middle_node_s_d.s
+
+# target to generate assembly for a file
+src/main/clang/linear-table/practise/find_middle_node_s_d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.s
+.PHONY : src/main/clang/linear-table/practise/find_middle_node_s_d.c.s
 
 src/main/clang/linear-table/practise/merge_seq.obj: src/main/clang/linear-table/practise/merge_seq.c.obj
 
@@ -303,113 +384,113 @@ src/main/clang/linear-table/sequence/sequence_table.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.s
 .PHONY : src/main/clang/linear-table/sequence/sequence_table.c.s
 
-src/main/clang/linear-table/sinle-direction/single_dire_list.obj: src/main/clang/linear-table/sinle-direction/single_dire_list.c.obj
+src/main/clang/linear-table/single-direction/single_dire_list.obj: src/main/clang/linear-table/single-direction/single_dire_list.c.obj
 
-.PHONY : src/main/clang/linear-table/sinle-direction/single_dire_list.obj
-
-# target to build an object file
-src/main/clang/linear-table/sinle-direction/single_dire_list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_dire_list.c.obj
-.PHONY : src/main/clang/linear-table/sinle-direction/single_dire_list.c.obj
-
-src/main/clang/linear-table/sinle-direction/single_dire_list.i: src/main/clang/linear-table/sinle-direction/single_dire_list.c.i
-
-.PHONY : src/main/clang/linear-table/sinle-direction/single_dire_list.i
-
-# target to preprocess a source file
-src/main/clang/linear-table/sinle-direction/single_dire_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_dire_list.c.i
-.PHONY : src/main/clang/linear-table/sinle-direction/single_dire_list.c.i
-
-src/main/clang/linear-table/sinle-direction/single_dire_list.s: src/main/clang/linear-table/sinle-direction/single_dire_list.c.s
-
-.PHONY : src/main/clang/linear-table/sinle-direction/single_dire_list.s
-
-# target to generate assembly for a file
-src/main/clang/linear-table/sinle-direction/single_dire_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_dire_list.c.s
-.PHONY : src/main/clang/linear-table/sinle-direction/single_dire_list.c.s
-
-src/main/clang/linear-table/sinle-direction/single_direction.obj: src/main/clang/linear-table/sinle-direction/single_direction.c.obj
-
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction.obj
+.PHONY : src/main/clang/linear-table/single-direction/single_dire_list.obj
 
 # target to build an object file
-src/main/clang/linear-table/sinle-direction/single_direction.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction.c.obj
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction.c.obj
+src/main/clang/linear-table/single-direction/single_dire_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.obj
+.PHONY : src/main/clang/linear-table/single-direction/single_dire_list.c.obj
 
-src/main/clang/linear-table/sinle-direction/single_direction.i: src/main/clang/linear-table/sinle-direction/single_direction.c.i
+src/main/clang/linear-table/single-direction/single_dire_list.i: src/main/clang/linear-table/single-direction/single_dire_list.c.i
 
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction.i
+.PHONY : src/main/clang/linear-table/single-direction/single_dire_list.i
 
 # target to preprocess a source file
-src/main/clang/linear-table/sinle-direction/single_direction.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction.c.i
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction.c.i
+src/main/clang/linear-table/single-direction/single_dire_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.i
+.PHONY : src/main/clang/linear-table/single-direction/single_dire_list.c.i
 
-src/main/clang/linear-table/sinle-direction/single_direction.s: src/main/clang/linear-table/sinle-direction/single_direction.c.s
+src/main/clang/linear-table/single-direction/single_dire_list.s: src/main/clang/linear-table/single-direction/single_dire_list.c.s
 
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction.s
+.PHONY : src/main/clang/linear-table/single-direction/single_dire_list.s
 
 # target to generate assembly for a file
-src/main/clang/linear-table/sinle-direction/single_direction.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction.c.s
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction.c.s
+src/main/clang/linear-table/single-direction/single_dire_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.s
+.PHONY : src/main/clang/linear-table/single-direction/single_dire_list.c.s
 
-src/main/clang/linear-table/sinle-direction/single_direction_1.obj: src/main/clang/linear-table/sinle-direction/single_direction_1.c.obj
+src/main/clang/linear-table/single-direction/single_direction.obj: src/main/clang/linear-table/single-direction/single_direction.c.obj
 
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction_1.obj
+.PHONY : src/main/clang/linear-table/single-direction/single_direction.obj
 
 # target to build an object file
-src/main/clang/linear-table/sinle-direction/single_direction_1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction_1.c.obj
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction_1.c.obj
+src/main/clang/linear-table/single-direction/single_direction.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.obj
+.PHONY : src/main/clang/linear-table/single-direction/single_direction.c.obj
 
-src/main/clang/linear-table/sinle-direction/single_direction_1.i: src/main/clang/linear-table/sinle-direction/single_direction_1.c.i
+src/main/clang/linear-table/single-direction/single_direction.i: src/main/clang/linear-table/single-direction/single_direction.c.i
 
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction_1.i
+.PHONY : src/main/clang/linear-table/single-direction/single_direction.i
 
 # target to preprocess a source file
-src/main/clang/linear-table/sinle-direction/single_direction_1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction_1.c.i
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction_1.c.i
+src/main/clang/linear-table/single-direction/single_direction.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.i
+.PHONY : src/main/clang/linear-table/single-direction/single_direction.c.i
 
-src/main/clang/linear-table/sinle-direction/single_direction_1.s: src/main/clang/linear-table/sinle-direction/single_direction_1.c.s
+src/main/clang/linear-table/single-direction/single_direction.s: src/main/clang/linear-table/single-direction/single_direction.c.s
 
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction_1.s
+.PHONY : src/main/clang/linear-table/single-direction/single_direction.s
 
 # target to generate assembly for a file
-src/main/clang/linear-table/sinle-direction/single_direction_1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction_1.c.s
-.PHONY : src/main/clang/linear-table/sinle-direction/single_direction_1.c.s
+src/main/clang/linear-table/single-direction/single_direction.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.s
+.PHONY : src/main/clang/linear-table/single-direction/single_direction.c.s
 
-src/main/clang/linear-table/sinle-direction/single_list_demo.obj: src/main/clang/linear-table/sinle-direction/single_list_demo.c.obj
+src/main/clang/linear-table/single-direction/single_direction_1.obj: src/main/clang/linear-table/single-direction/single_direction_1.c.obj
 
-.PHONY : src/main/clang/linear-table/sinle-direction/single_list_demo.obj
+.PHONY : src/main/clang/linear-table/single-direction/single_direction_1.obj
 
 # target to build an object file
-src/main/clang/linear-table/sinle-direction/single_list_demo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_list_demo.c.obj
-.PHONY : src/main/clang/linear-table/sinle-direction/single_list_demo.c.obj
+src/main/clang/linear-table/single-direction/single_direction_1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.obj
+.PHONY : src/main/clang/linear-table/single-direction/single_direction_1.c.obj
 
-src/main/clang/linear-table/sinle-direction/single_list_demo.i: src/main/clang/linear-table/sinle-direction/single_list_demo.c.i
+src/main/clang/linear-table/single-direction/single_direction_1.i: src/main/clang/linear-table/single-direction/single_direction_1.c.i
 
-.PHONY : src/main/clang/linear-table/sinle-direction/single_list_demo.i
+.PHONY : src/main/clang/linear-table/single-direction/single_direction_1.i
 
 # target to preprocess a source file
-src/main/clang/linear-table/sinle-direction/single_list_demo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_list_demo.c.i
-.PHONY : src/main/clang/linear-table/sinle-direction/single_list_demo.c.i
+src/main/clang/linear-table/single-direction/single_direction_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.i
+.PHONY : src/main/clang/linear-table/single-direction/single_direction_1.c.i
 
-src/main/clang/linear-table/sinle-direction/single_list_demo.s: src/main/clang/linear-table/sinle-direction/single_list_demo.c.s
+src/main/clang/linear-table/single-direction/single_direction_1.s: src/main/clang/linear-table/single-direction/single_direction_1.c.s
 
-.PHONY : src/main/clang/linear-table/sinle-direction/single_list_demo.s
+.PHONY : src/main/clang/linear-table/single-direction/single_direction_1.s
 
 # target to generate assembly for a file
-src/main/clang/linear-table/sinle-direction/single_list_demo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_list_demo.c.s
-.PHONY : src/main/clang/linear-table/sinle-direction/single_list_demo.c.s
+src/main/clang/linear-table/single-direction/single_direction_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.s
+.PHONY : src/main/clang/linear-table/single-direction/single_direction_1.c.s
+
+src/main/clang/linear-table/single-direction/single_list_demo.obj: src/main/clang/linear-table/single-direction/single_list_demo.c.obj
+
+.PHONY : src/main/clang/linear-table/single-direction/single_list_demo.obj
+
+# target to build an object file
+src/main/clang/linear-table/single-direction/single_list_demo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj
+.PHONY : src/main/clang/linear-table/single-direction/single_list_demo.c.obj
+
+src/main/clang/linear-table/single-direction/single_list_demo.i: src/main/clang/linear-table/single-direction/single_list_demo.c.i
+
+.PHONY : src/main/clang/linear-table/single-direction/single_list_demo.i
+
+# target to preprocess a source file
+src/main/clang/linear-table/single-direction/single_list_demo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.i
+.PHONY : src/main/clang/linear-table/single-direction/single_list_demo.c.i
+
+src/main/clang/linear-table/single-direction/single_list_demo.s: src/main/clang/linear-table/single-direction/single_list_demo.c.s
+
+.PHONY : src/main/clang/linear-table/single-direction/single_list_demo.s
+
+# target to generate assembly for a file
+src/main/clang/linear-table/single-direction/single_list_demo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.s
+.PHONY : src/main/clang/linear-table/single-direction/single_list_demo.c.s
 
 # Help Target
 help:
@@ -426,6 +507,15 @@ help:
 	@echo ... src/main/clang/linear-table/double-direction/demonstrate.obj
 	@echo ... src/main/clang/linear-table/double-direction/demonstrate.i
 	@echo ... src/main/clang/linear-table/double-direction/demonstrate.s
+	@echo ... src/main/clang/linear-table/practise/del_repeat_s_d.obj
+	@echo ... src/main/clang/linear-table/practise/del_repeat_s_d.i
+	@echo ... src/main/clang/linear-table/practise/del_repeat_s_d.s
+	@echo ... src/main/clang/linear-table/practise/find_from_bottom.obj
+	@echo ... src/main/clang/linear-table/practise/find_from_bottom.i
+	@echo ... src/main/clang/linear-table/practise/find_from_bottom.s
+	@echo ... src/main/clang/linear-table/practise/find_middle_node_s_d.obj
+	@echo ... src/main/clang/linear-table/practise/find_middle_node_s_d.i
+	@echo ... src/main/clang/linear-table/practise/find_middle_node_s_d.s
 	@echo ... src/main/clang/linear-table/practise/merge_seq.obj
 	@echo ... src/main/clang/linear-table/practise/merge_seq.i
 	@echo ... src/main/clang/linear-table/practise/merge_seq.s
@@ -438,18 +528,18 @@ help:
 	@echo ... src/main/clang/linear-table/sequence/sequence_table.obj
 	@echo ... src/main/clang/linear-table/sequence/sequence_table.i
 	@echo ... src/main/clang/linear-table/sequence/sequence_table.s
-	@echo ... src/main/clang/linear-table/sinle-direction/single_dire_list.obj
-	@echo ... src/main/clang/linear-table/sinle-direction/single_dire_list.i
-	@echo ... src/main/clang/linear-table/sinle-direction/single_dire_list.s
-	@echo ... src/main/clang/linear-table/sinle-direction/single_direction.obj
-	@echo ... src/main/clang/linear-table/sinle-direction/single_direction.i
-	@echo ... src/main/clang/linear-table/sinle-direction/single_direction.s
-	@echo ... src/main/clang/linear-table/sinle-direction/single_direction_1.obj
-	@echo ... src/main/clang/linear-table/sinle-direction/single_direction_1.i
-	@echo ... src/main/clang/linear-table/sinle-direction/single_direction_1.s
-	@echo ... src/main/clang/linear-table/sinle-direction/single_list_demo.obj
-	@echo ... src/main/clang/linear-table/sinle-direction/single_list_demo.i
-	@echo ... src/main/clang/linear-table/sinle-direction/single_list_demo.s
+	@echo ... src/main/clang/linear-table/single-direction/single_dire_list.obj
+	@echo ... src/main/clang/linear-table/single-direction/single_dire_list.i
+	@echo ... src/main/clang/linear-table/single-direction/single_dire_list.s
+	@echo ... src/main/clang/linear-table/single-direction/single_direction.obj
+	@echo ... src/main/clang/linear-table/single-direction/single_direction.i
+	@echo ... src/main/clang/linear-table/single-direction/single_direction.s
+	@echo ... src/main/clang/linear-table/single-direction/single_direction_1.obj
+	@echo ... src/main/clang/linear-table/single-direction/single_direction_1.i
+	@echo ... src/main/clang/linear-table/single-direction/single_direction_1.s
+	@echo ... src/main/clang/linear-table/single-direction/single_list_demo.obj
+	@echo ... src/main/clang/linear-table/single-direction/single_list_demo.i
+	@echo ... src/main/clang/linear-table/single-direction/single_list_demo.s
 .PHONY : help
 
 

@@ -9,6 +9,18 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demon
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.obj: ../src/main/header/exports_declaration.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
 
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.obj: ../src/main/clang/linear-table/practise/del_repeat_s_d.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.obj: ../src/main/clang/linear-table/practise/find_from_bottom.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.obj: ../src/main/clang/linear-table/practise/find_middle_node_s_d.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj: ../src/main/clang/linear-table/practise/merge_seq.c
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj: ../src/main/header/exports_declaration.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
@@ -25,19 +37,19 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_tabl
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj: ../src/main/header/exports_declaration.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
 
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_dire_list.c.obj: ../src/main/clang/linear-table/sinle-direction/single_dire_list.c
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_dire_list.c.obj: ../src/main/header/exports_declaration.h
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_dire_list.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.obj: ../src/main/clang/linear-table/single-direction/single_dire_list.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
 
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction.c.obj: ../src/main/clang/linear-table/sinle-direction/single_direction.c
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction.c.obj: ../src/main/header/exports_declaration.h
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.obj: ../src/main/clang/linear-table/single-direction/single_direction.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
 
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction_1.c.obj: ../src/main/clang/linear-table/sinle-direction/single_direction_1.c
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction_1.c.obj: ../src/main/header/exports_declaration.h
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_direction_1.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.obj: ../src/main/clang/linear-table/single-direction/single_direction_1.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
 
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_list_demo.c.obj: ../src/main/clang/linear-table/sinle-direction/single_list_demo.c
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_list_demo.c.obj: ../src/main/header/exports_declaration.h
-CMakeFiles/data_structure.dir/src/main/clang/linear-table/sinle-direction/single_list_demo.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj: ../src/main/clang/linear-table/single-direction/single_list_demo.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
 
