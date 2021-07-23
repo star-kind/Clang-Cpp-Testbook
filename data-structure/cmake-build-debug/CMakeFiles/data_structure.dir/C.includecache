@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c
 ../../../header/exports_declaration.h
-D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 
-D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 ./linear-tbl/linear_declaration.h
-D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
 
-D:/Engineerings/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
 stdio.h
 -
 ctype.h

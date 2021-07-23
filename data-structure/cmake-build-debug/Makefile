@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Programs\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Programs\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Engineerings\Clang-Cpp-Testbook\data-structure
+CMAKE_SOURCE_DIR = D:\WORKSPACE\Clang-Cpp-Testbook\data-structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Engineerings\Clang-Cpp-Testbook\data-structure\cmake-build-debug
+CMAKE_BINARY_DIR = D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = D:\Engineerings\Clang-Cpp-Testbook\data-structure\cmake-build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Programs\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Programs\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Engineerings\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles D:\Engineerings\Clang-Cpp-Testbook\data-structure\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Engineerings\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,6 +194,33 @@ src/main/clang/linear-table/double-direction/demonstrate.s: src/main/clang/linea
 src/main/clang/linear-table/double-direction/demonstrate.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.s
 .PHONY : src/main/clang/linear-table/double-direction/demonstrate.c.s
+
+src/main/clang/linear-table/practise/del_duplicate_ele.obj: src/main/clang/linear-table/practise/del_duplicate_ele.c.obj
+
+.PHONY : src/main/clang/linear-table/practise/del_duplicate_ele.obj
+
+# target to build an object file
+src/main/clang/linear-table/practise/del_duplicate_ele.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.obj
+.PHONY : src/main/clang/linear-table/practise/del_duplicate_ele.c.obj
+
+src/main/clang/linear-table/practise/del_duplicate_ele.i: src/main/clang/linear-table/practise/del_duplicate_ele.c.i
+
+.PHONY : src/main/clang/linear-table/practise/del_duplicate_ele.i
+
+# target to preprocess a source file
+src/main/clang/linear-table/practise/del_duplicate_ele.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.i
+.PHONY : src/main/clang/linear-table/practise/del_duplicate_ele.c.i
+
+src/main/clang/linear-table/practise/del_duplicate_ele.s: src/main/clang/linear-table/practise/del_duplicate_ele.c.s
+
+.PHONY : src/main/clang/linear-table/practise/del_duplicate_ele.s
+
+# target to generate assembly for a file
+src/main/clang/linear-table/practise/del_duplicate_ele.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.s
+.PHONY : src/main/clang/linear-table/practise/del_duplicate_ele.c.s
 
 src/main/clang/linear-table/practise/del_repeat_s_d.obj: src/main/clang/linear-table/practise/del_repeat_s_d.c.obj
 
@@ -507,6 +534,9 @@ help:
 	@echo ... src/main/clang/linear-table/double-direction/demonstrate.obj
 	@echo ... src/main/clang/linear-table/double-direction/demonstrate.i
 	@echo ... src/main/clang/linear-table/double-direction/demonstrate.s
+	@echo ... src/main/clang/linear-table/practise/del_duplicate_ele.obj
+	@echo ... src/main/clang/linear-table/practise/del_duplicate_ele.i
+	@echo ... src/main/clang/linear-table/practise/del_duplicate_ele.s
 	@echo ... src/main/clang/linear-table/practise/del_repeat_s_d.obj
 	@echo ... src/main/clang/linear-table/practise/del_repeat_s_d.i
 	@echo ... src/main/clang/linear-table/practise/del_repeat_s_d.s

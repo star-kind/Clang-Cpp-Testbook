@@ -32,4 +32,6 @@ void find_from_bottom_export();
 
 void delete_duplicate_export();
 
+void del_dup_ele_export();
+
 #endif //DATA_STRUCTURE_LINEAR_DECLARATION_H

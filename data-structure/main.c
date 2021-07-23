@@ -1,6 +1,6 @@
 #include "./src/main/header/exports_declaration.h"
 
 int main() {
-    delete_duplicate_export();
+    del_dup_ele_export();
     return 0;
 }

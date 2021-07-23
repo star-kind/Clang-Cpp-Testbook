@@ -9,6 +9,10 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demon
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.obj: ../src/main/header/exports_declaration.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
 
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.obj: ../src/main/clang/linear-table/practise/del_duplicate_ele.c
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.obj: ../src/main/clang/linear-table/practise/del_repeat_s_d.c
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.obj: ../src/main/header/exports_declaration.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.obj: ../src/main/header/linear-tbl/linear_declaration.h

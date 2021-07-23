@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/main.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.obj"
+  "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.obj"
