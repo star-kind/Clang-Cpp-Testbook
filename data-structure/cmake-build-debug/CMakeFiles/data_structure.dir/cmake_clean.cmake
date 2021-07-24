@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj"
+  "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.obj"
+  "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.obj"
   "data_structure.exe"
   "data_structure.exe.manifest"
   "data_structure.pdb"

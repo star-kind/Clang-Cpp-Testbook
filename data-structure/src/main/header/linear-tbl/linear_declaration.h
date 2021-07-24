@@ -1,12 +1,7 @@
 #ifndef DATA_STRUCTURE_LINEAR_DECLARATION_H
 #define DATA_STRUCTURE_LINEAR_DECLARATION_H
 
-#include <stdio.h>
-#include <ctype.h>
-#include <stdbool.h>
-#include <stdlib.h>
-#include <string.h>
-#include <malloc.h>
+#include "../base/base.h"
 
 void sequence_table_exports();
 

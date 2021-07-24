@@ -57,10 +57,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\ProgramsFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\ProgramsFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-de
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\ProgramsFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\ProgramsFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -519,6 +519,60 @@ src/main/clang/linear-table/single-direction/single_list_demo.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.s
 .PHONY : src/main/clang/linear-table/single-direction/single_list_demo.c.s
 
+src/main/clang/stack-queue/stack/linked_stack.obj: src/main/clang/stack-queue/stack/linked_stack.c.obj
+
+.PHONY : src/main/clang/stack-queue/stack/linked_stack.obj
+
+# target to build an object file
+src/main/clang/stack-queue/stack/linked_stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.obj
+.PHONY : src/main/clang/stack-queue/stack/linked_stack.c.obj
+
+src/main/clang/stack-queue/stack/linked_stack.i: src/main/clang/stack-queue/stack/linked_stack.c.i
+
+.PHONY : src/main/clang/stack-queue/stack/linked_stack.i
+
+# target to preprocess a source file
+src/main/clang/stack-queue/stack/linked_stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.i
+.PHONY : src/main/clang/stack-queue/stack/linked_stack.c.i
+
+src/main/clang/stack-queue/stack/linked_stack.s: src/main/clang/stack-queue/stack/linked_stack.c.s
+
+.PHONY : src/main/clang/stack-queue/stack/linked_stack.s
+
+# target to generate assembly for a file
+src/main/clang/stack-queue/stack/linked_stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.s
+.PHONY : src/main/clang/stack-queue/stack/linked_stack.c.s
+
+src/main/clang/stack-queue/stack/sequence_stack.obj: src/main/clang/stack-queue/stack/sequence_stack.c.obj
+
+.PHONY : src/main/clang/stack-queue/stack/sequence_stack.obj
+
+# target to build an object file
+src/main/clang/stack-queue/stack/sequence_stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.obj
+.PHONY : src/main/clang/stack-queue/stack/sequence_stack.c.obj
+
+src/main/clang/stack-queue/stack/sequence_stack.i: src/main/clang/stack-queue/stack/sequence_stack.c.i
+
+.PHONY : src/main/clang/stack-queue/stack/sequence_stack.i
+
+# target to preprocess a source file
+src/main/clang/stack-queue/stack/sequence_stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.i
+.PHONY : src/main/clang/stack-queue/stack/sequence_stack.c.i
+
+src/main/clang/stack-queue/stack/sequence_stack.s: src/main/clang/stack-queue/stack/sequence_stack.c.s
+
+.PHONY : src/main/clang/stack-queue/stack/sequence_stack.s
+
+# target to generate assembly for a file
+src/main/clang/stack-queue/stack/sequence_stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.s
+.PHONY : src/main/clang/stack-queue/stack/sequence_stack.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -570,6 +624,12 @@ help:
 	@echo ... src/main/clang/linear-table/single-direction/single_list_demo.obj
 	@echo ... src/main/clang/linear-table/single-direction/single_list_demo.i
 	@echo ... src/main/clang/linear-table/single-direction/single_list_demo.s
+	@echo ... src/main/clang/stack-queue/stack/linked_stack.obj
+	@echo ... src/main/clang/stack-queue/stack/linked_stack.i
+	@echo ... src/main/clang/stack-queue/stack/linked_stack.s
+	@echo ... src/main/clang/stack-queue/stack/sequence_stack.obj
+	@echo ... src/main/clang/stack-queue/stack/sequence_stack.i
+	@echo ... src/main/clang/stack-queue/stack/sequence_stack.s
 .PHONY : help
 
 

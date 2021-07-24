@@ -18,6 +18,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.obj"
   "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.obj"
   "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj"
+  "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/linked_stack.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.obj"
+  "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

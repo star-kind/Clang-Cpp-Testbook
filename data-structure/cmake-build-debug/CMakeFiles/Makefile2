@@ -53,10 +53,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\ProgramsFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Programs\IDEA-CLION\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\ProgramsFiles\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -92,12 +92,12 @@ clean: CMakeFiles/data_structure.dir/clean
 CMakeFiles/data_structure.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target data_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target data_structure"
 .PHONY : CMakeFiles/data_structure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/data_structure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/data_structure.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\WORKSPACE\Clang-Cpp-Testbook\data-structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/data_structure.dir/rule
