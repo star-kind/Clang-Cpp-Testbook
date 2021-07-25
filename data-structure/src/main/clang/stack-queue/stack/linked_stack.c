@@ -11,27 +11,29 @@ st_node *initial_linked_stack(st_node *st) {
 }
 
 st_node *push_linked_stack(st_node *st, int array[]) {
-    st_node *p, *q;
+    st_node *p;
     int i = 0, j = 0;
     int *arr_p = array;
-
-    q = st;
 
     while (*(arr_p + i++)) {
         p = (st_node *) malloc(sizeof(st_node));
         p->data = *(arr_p + j++);
 
         //let new node p's next-region points to q,that means take q's address set into next-region of new node
-        p->next = q;
+        p->next = st;
         // revamp p become to top pointer of stack
-        q = p;
+        st = p;
     }
 
     return st;
 }
 
-//pop stack equals deletes top element of stack,let top pointer of stack points to next node,and next release memory of this node
-void pop_stack_node(st_node *st) {
+/**
+ * pop stack equals deletes top element of stack,let top pointer of stack points to next node,and next release memory of this node
+ * @param st
+ * @return
+ */
+st_node * pop_stack_node(st_node *st) {
     st_node *p;
 
     //use p sava the address of stack top element for release
@@ -41,9 +43,15 @@ void pop_stack_node(st_node *st) {
     st = st->next;
 
     free(p);
+
+    return st;
 }
 
-// get top element of stack st,top pointer of stack remain unchanged
+/**
+ * get top element of stack st,top pointer of stack remain unchanged
+ * @param st
+ * @return
+ */
 int get_top_node(st_node *st) {
     if (st) {
         return st->data;
@@ -53,7 +61,18 @@ int get_top_node(st_node *st) {
     }
 }
 
-//TODO
+void stack_prints(st_node *st) {
+    st_node *p;
+    p = st;
+
+    while (p) {
+        printf("%d   ", p->data);
+        p = p->next;
+    }
+
+    printf("\n");
+}
+
 void linked_stack_export() {
     st_node *st;
     int array[] = {12, 14, 16, 17, 19, 22, 24, 26, 29};
@@ -61,10 +80,12 @@ void linked_stack_export() {
 
     st = initial_linked_stack(st);
 
-    push_linked_stack(st, array);
-    res = get_top_node(st);
-    printf("result:  %d\n", res);
+    st = push_linked_stack(st, array);
+    stack_prints(st);
 
-    pop_stack_node(st);
-    printf("2.result:  %d\n", res);
+    res = get_top_node(st);
+    printf("stack's top result:  %d\n", res);
+
+    st = pop_stack_node(st);
+    stack_prints(st);
 }
