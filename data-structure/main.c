@@ -1,6 +1,6 @@
 #include "./src/main/header/exports_declaration.h"
 
 int main() {
-    cir_que_exports();
+    LQ_test_export();
     return 0;
 }

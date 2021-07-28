@@ -85,11 +85,17 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/singl
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj: ../src/main/header/stack-queue/stack_queue_decl.h
 
-CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue.c.obj: ../src/main/clang/stack-queue/queue/circulate_queue.c
-CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue.c.obj: ../src/main/header/base/base.h
-CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue.c.obj: ../src/main/header/exports_declaration.h
-CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
-CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue.c.obj: ../src/main/header/stack-queue/stack_queue_decl.h
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.obj: ../src/main/clang/stack-queue/queue/circulate_queue2.c
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.obj: ../src/main/header/base/base.h
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.obj: ../src/main/header/stack-queue/stack_queue_decl.h
+
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.obj: ../src/main/clang/stack-queue/queue/link_queue.c
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.obj: ../src/main/header/base/base.h
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.obj: ../src/main/header/exports_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.obj: ../src/main/header/linear-tbl/linear_declaration.h
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.obj: ../src/main/header/stack-queue/stack_queue_decl.h
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.obj: ../src/main/clang/stack-queue/stack/linked_stack.c
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.obj: ../src/main/header/base/base.h

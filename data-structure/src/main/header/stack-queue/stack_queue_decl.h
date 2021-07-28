@@ -11,4 +11,8 @@ void linked_stack_export();
 
 void cir_que_exports();
 
+void cir_que_export2();
+
+void LQ_test_export();
+
 #endif //DATA_STRUCTURE_STACK_QUEUE_DECL_H

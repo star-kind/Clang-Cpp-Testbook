@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue.c
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c
 ./../../../header/exports_declaration.h
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
 stdio.h
 -
 ctype.h
@@ -24,17 +24,17 @@ string.h
 malloc.h
 -
 
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 ./linear-tbl/linear_declaration.h
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
 ./stack-queue/stack_queue_decl.h
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h
 
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
 ../base/base.h
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
 
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h
 ../base/base.h
-D:/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
 
