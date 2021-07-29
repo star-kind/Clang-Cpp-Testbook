@@ -15,4 +15,8 @@ void cir_que_export2();
 
 void LQ_test_export();
 
+void dec_conv_bin_export();
+
+void palindrome_exports();
+
 #endif //DATA_STRUCTURE_STACK_QUEUE_DECL_H

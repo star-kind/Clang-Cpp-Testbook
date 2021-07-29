@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c
+D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c
 ./../../../header/exports_declaration.h
 D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 

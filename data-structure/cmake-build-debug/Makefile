@@ -546,6 +546,33 @@ src/main/clang/stack-queue/practice/decimal_conversion_binary.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.s
 .PHONY : src/main/clang/stack-queue/practice/decimal_conversion_binary.c.s
 
+src/main/clang/stack-queue/practice/determine_palindrome.obj: src/main/clang/stack-queue/practice/determine_palindrome.c.obj
+
+.PHONY : src/main/clang/stack-queue/practice/determine_palindrome.obj
+
+# target to build an object file
+src/main/clang/stack-queue/practice/determine_palindrome.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.obj
+.PHONY : src/main/clang/stack-queue/practice/determine_palindrome.c.obj
+
+src/main/clang/stack-queue/practice/determine_palindrome.i: src/main/clang/stack-queue/practice/determine_palindrome.c.i
+
+.PHONY : src/main/clang/stack-queue/practice/determine_palindrome.i
+
+# target to preprocess a source file
+src/main/clang/stack-queue/practice/determine_palindrome.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.i
+.PHONY : src/main/clang/stack-queue/practice/determine_palindrome.c.i
+
+src/main/clang/stack-queue/practice/determine_palindrome.s: src/main/clang/stack-queue/practice/determine_palindrome.c.s
+
+.PHONY : src/main/clang/stack-queue/practice/determine_palindrome.s
+
+# target to generate assembly for a file
+src/main/clang/stack-queue/practice/determine_palindrome.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structure.dir\build.make CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.s
+.PHONY : src/main/clang/stack-queue/practice/determine_palindrome.c.s
+
 src/main/clang/stack-queue/queue/circulate_queue2.obj: src/main/clang/stack-queue/queue/circulate_queue2.c.obj
 
 .PHONY : src/main/clang/stack-queue/queue/circulate_queue2.obj
@@ -735,6 +762,9 @@ help:
 	@echo ... src/main/clang/stack-queue/practice/decimal_conversion_binary.obj
 	@echo ... src/main/clang/stack-queue/practice/decimal_conversion_binary.i
 	@echo ... src/main/clang/stack-queue/practice/decimal_conversion_binary.s
+	@echo ... src/main/clang/stack-queue/practice/determine_palindrome.obj
+	@echo ... src/main/clang/stack-queue/practice/determine_palindrome.i
+	@echo ... src/main/clang/stack-queue/practice/determine_palindrome.s
 	@echo ... src/main/clang/stack-queue/queue/circulate_queue2.obj
 	@echo ... src/main/clang/stack-queue/queue/circulate_queue2.i
 	@echo ... src/main/clang/stack-queue/queue/circulate_queue2.s

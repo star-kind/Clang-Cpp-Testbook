@@ -1,6 +1,6 @@
 #include "./src/main/header/exports_declaration.h"
 
 int main() {
-    LQ_test_export();
+    palindrome_exports();
     return 0;
 }

@@ -11,10 +11,10 @@
 				<Option working_dir="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="data_structure">
@@ -24,15 +24,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure"/>
-					<CompileFile command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure"/>
+					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="data_structure/fast">
@@ -42,35 +42,35 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure/fast"/>
-					<CompileFile command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure/fast"/>
+					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -117,6 +117,9 @@
 			<Option target="data_structure"/>
 		</Unit>
 		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c">
 			<Option target="data_structure"/>
 		</Unit>
 		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c">
