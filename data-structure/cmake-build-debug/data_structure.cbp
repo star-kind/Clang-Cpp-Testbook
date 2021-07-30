@@ -116,6 +116,9 @@
 		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c">
 			<Option target="data_structure"/>
 		</Unit>
+		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c">
+			<Option target="data_structure"/>
+		</Unit>
 		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c">
 			<Option target="data_structure"/>
 		</Unit>

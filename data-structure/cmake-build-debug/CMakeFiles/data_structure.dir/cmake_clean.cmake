@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj"
+  "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.obj"

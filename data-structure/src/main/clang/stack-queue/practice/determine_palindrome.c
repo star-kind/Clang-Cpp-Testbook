@@ -33,16 +33,15 @@ char pop_seq(seq_stack *seqStack) {
         exit(0);
     }
 
-    ch = *seqStack->top;
+    ch = *(seqStack->top - 1);
     seqStack->top--;
     return ch;
 }
 
-//TODO test and debug input overstep string
 char *get_enter_string(char *res) {
     char str[STRING_LEN];
 
-    printf("please input a string:  ");
+    printf("please input a string:\r\n");
     scanf("%s", str);
 
     if (str[STRING_LEN + 1]) {
@@ -61,15 +60,15 @@ int determine_major() {
     int k = 0;
     char *ch_arr;
 
+    //initialization
+    initializes_seq_stack_struct(&seqStack);
+
     //get a string(actually return a char array name pointer)
     ch_arr = get_enter_string(ch_arr);
 
     //get length of string
     string_length = strlen(ch_arr);
     half_temp_length = half_length = string_length / 2;
-
-    //initialization
-    initializes_seq_stack_struct(&seqStack);
 
     //take first half of the string character push into the stack in proper order
     while (half_temp_length--) {
@@ -91,10 +90,12 @@ int determine_major() {
             second_half++;
         }
     }
+
+    printf("the string indeed it is palindrome\n");
     return true;
 }
 
 void palindrome_exports() {
     int sign = determine_major();
-    printf("judge palindrome result:  %d\n", sign);
+    printf("result of palindrome determine:  %d\n", sign);
 }

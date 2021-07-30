@@ -1,3 +1,7 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "C"
@@ -18,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.obj"
   "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.obj"
   "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj"
+  "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.obj"
   "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.obj"
   "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.obj"
   "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c" "D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.obj"
@@ -30,6 +35,10 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.
