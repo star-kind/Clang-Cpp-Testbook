@@ -85,6 +85,12 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/singl
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/stack-queue/stack_queue_decl.h
+CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.obj: \
+ ../src/main/clang/stack-queue/double-direction-queue/case.c \
+ ../src/main/header/base/base.h \
+ ../src/main/header/exports_declaration.h \
+ ../src/main/header/linear-tbl/linear_declaration.h \
+ ../src/main/header/stack-queue/stack_queue_decl.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.obj: \
  ../src/main/clang/stack-queue/practice/decimal_conversion_binary.c \
  ../src/main/header/base/base.h \

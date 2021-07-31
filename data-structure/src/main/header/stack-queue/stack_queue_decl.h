@@ -19,4 +19,5 @@ void dec_conv_bin_export();
 
 void palindrome_exports();
 
+void double_queue_case_export();
 #endif //DATA_STRUCTURE_STACK_QUEUE_DECL_H

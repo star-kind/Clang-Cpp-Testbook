@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c
 ./../../../header/exports_declaration.h
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
 stdio.h
 -
 ctype.h
@@ -24,17 +24,17 @@ string.h
 malloc.h
 -
 
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 ./linear-tbl/linear_declaration.h
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
 ./stack-queue/stack_queue_decl.h
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h
 
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h
 ../base/base.h
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
 
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h
 ../base/base.h
-D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
+D:/WorkSpaces/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h
 

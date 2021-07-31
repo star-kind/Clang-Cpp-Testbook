@@ -1,6 +1,6 @@
 #include "./src/main/header/exports_declaration.h"
 
 int main() {
-    palindrome_exports();
+    double_queue_case_export();
     return 0;
 }
