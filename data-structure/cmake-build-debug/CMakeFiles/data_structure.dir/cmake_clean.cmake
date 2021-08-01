@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.obj"
   "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.obj"
+  "CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.obj"
   "data_structure.exe"
   "data_structure.exe.manifest"
   "data_structure.pdb"

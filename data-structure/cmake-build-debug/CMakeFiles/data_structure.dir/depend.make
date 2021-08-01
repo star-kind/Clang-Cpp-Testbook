@@ -6,130 +6,159 @@ CMakeFiles/data_structure.dir/main.c.obj: \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.obj: \
  ../src/main/clang/linear-table/double-direction/demonstrate.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.obj: \
  ../src/main/clang/linear-table/practise/del_duplicate_ele.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.obj: \
  ../src/main/clang/linear-table/practise/del_repeat_s_d.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.obj: \
  ../src/main/clang/linear-table/practise/find_from_bottom.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.obj: \
  ../src/main/clang/linear-table/practise/find_middle_node_s_d.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.obj: \
  ../src/main/clang/linear-table/practise/merge_seq.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.obj: \
  ../src/main/clang/linear-table/practise/merge_single_direction.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.obj: \
  ../src/main/clang/linear-table/practise/reverse_single_direction.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.obj: \
  ../src/main/clang/linear-table/sequence/sequence_table.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.obj: \
  ../src/main/clang/linear-table/single-direction/single_dire_list.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.obj: \
  ../src/main/clang/linear-table/single-direction/single_direction.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.obj: \
  ../src/main/clang/linear-table/single-direction/single_direction_1.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.obj: \
  ../src/main/clang/linear-table/single-direction/single_list_demo.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.obj: \
  ../src/main/clang/stack-queue/double-direction-queue/case.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.obj: \
  ../src/main/clang/stack-queue/practice/decimal_conversion_binary.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.obj: \
  ../src/main/clang/stack-queue/practice/determine_palindrome.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.obj: \
  ../src/main/clang/stack-queue/queue/circulate_queue2.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.obj: \
  ../src/main/clang/stack-queue/queue/link_queue.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.obj: \
  ../src/main/clang/stack-queue/stack/linked_stack.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.obj: \
  ../src/main/clang/stack-queue/stack/sequence_stack.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.obj: \
  ../src/main/clang/stack-queue/stack/sequence_stack2.c \
  ../src/main/header/base/base.h \
  ../src/main/header/exports_declaration.h \
  ../src/main/header/linear-tbl/linear_declaration.h \
- ../src/main/header/stack-queue/stack_queue_decl.h
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
+CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.obj: \
+ ../src/main/clang/string/brute_force_algorithm.c \
+ ../src/main/header/base/base.h \
+ ../src/main/header/exports_declaration.h \
+ ../src/main/header/linear-tbl/linear_declaration.h \
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h
