@@ -83,11 +83,11 @@ void solves(int n) {
 */
 void snake_operation() {
     int n;
-    printf("please enter the integer number that must be greater than 1 and less than 20:\n\r");
+    printf("please enter the integer number that required being greater than 1 and less than 20:\n\r");
     scanf("%d", &n);
 
     while (n < 1 || n > 20) {
-        printf("please enter the integer number that must be greater than 1 and less than 20:\n\r");
+        printf("please enter the integer number that required being greater than 1 and less than 20:\n\r");
         scanf("%d", &n);
     }
 

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ruler/main/softwares/clion-2021.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/162/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ruler/main/softwares/clion-2021.2/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/162/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure
+CMAKE_SOURCE_DIR = /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/data_structure.dir/depend.make
@@ -68,315 +68,328 @@ include CMakeFiles/data_structure.dir/flags.make
 
 CMakeFiles/data_structure.dir/main.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/data_structure.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/main.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/data_structure.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/main.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/main.c
 
 CMakeFiles/data_structure.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/main.c > CMakeFiles/data_structure.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/main.c > CMakeFiles/data_structure.dir/main.c.i
 
 CMakeFiles/data_structure.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/main.c -o CMakeFiles/data_structure.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/main.c -o CMakeFiles/data_structure.dir/main.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.o: ../src/main/clang/linear-table/single-direction/single_dire_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_dire_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_dire_list.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_dire_list.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_dire_list.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_dire_list.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_dire_list.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.o: ../src/main/clang/linear-table/single-direction/single_direction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.o: ../src/main/clang/linear-table/single-direction/single_direction_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.o: ../src/main/clang/linear-table/single-direction/single_list_demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o: ../src/main/clang/linear-table/double-direction/demonstrate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/double-direction/demonstrate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/double-direction/demonstrate.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/double-direction/demonstrate.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/double-direction/demonstrate.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/double-direction/demonstrate.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/double-direction/demonstrate.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.o: ../src/main/clang/linear-table/sequence/sequence_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o: ../src/main/clang/linear-table/practise/merge_seq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.o: ../src/main/clang/linear-table/practise/merge_single_direction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.o: ../src/main/clang/linear-table/practise/reverse_single_direction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.o: ../src/main/clang/linear-table/practise/find_middle_node_s_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_middle_node_s_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_middle_node_s_d.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_middle_node_s_d.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_middle_node_s_d.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_middle_node_s_d.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_middle_node_s_d.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.o: ../src/main/clang/linear-table/practise/find_from_bottom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_from_bottom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_from_bottom.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_from_bottom.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_from_bottom.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_from_bottom.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_from_bottom.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.o: ../src/main/clang/linear-table/practise/del_repeat_s_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o: ../src/main/clang/linear-table/practise/del_duplicate_ele.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c > CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c -o CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.o: ../src/main/clang/stack-queue/stack/sequence_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack.c
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.o: ../src/main/clang/stack-queue/stack/linked_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/linked_stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/linked_stack.c
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/linked_stack.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/linked_stack.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/linked_stack.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/linked_stack.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.o: ../src/main/clang/stack-queue/stack/sequence_stack2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack2.c
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack2.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack2.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack2.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack2.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.o: ../src/main/clang/stack-queue/queue/circulate_queue2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.o: ../src/main/clang/stack-queue/queue/link_queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.o: ../src/main/clang/stack-queue/practice/decimal_conversion_binary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.o: ../src/main/clang/stack-queue/practice/determine_palindrome.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.o: ../src/main/clang/stack-queue/double-direction-queue/case.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c > CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c -o CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o: ../src/main/clang/string/brute_force_algorithm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/string/brute_force_algorithm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/string/brute_force_algorithm.c
 
 CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/string/brute_force_algorithm.c > CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/string/brute_force_algorithm.c > CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/string/brute_force_algorithm.c -o CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/string/brute_force_algorithm.c -o CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.s
 
 CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o: CMakeFiles/data_structure.dir/flags.make
 CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o: ../src/main/clang/matrix-array/snake_matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o -c /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/matrix-array/snake_matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/matrix-array/snake_matrix.c
 
 CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/matrix-array/snake_matrix.c > CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/matrix-array/snake_matrix.c > CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.i
 
 CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/matrix-array/snake_matrix.c -o CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/matrix-array/snake_matrix.c -o CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.s
+
+CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.o: ../src/main/clang/tree/binary_tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.o -c /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/binary_tree.c
+
+CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/binary_tree.c > CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.i
+
+CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/binary_tree.c -o CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.s
 
 # Object files for target data_structure
 data_structure_OBJECTS = \
@@ -403,7 +416,8 @@ data_structure_OBJECTS = \
 "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.o" \
 "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.o" \
 "CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o" \
-"CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o"
+"CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o" \
+"CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.o"
 
 # External object files for target data_structure
 data_structure_EXTERNAL_OBJECTS =
@@ -432,9 +446,10 @@ data_structure: CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practic
 data_structure: CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.o
 data_structure: CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o
 data_structure: CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o
+data_structure: CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.o
 data_structure: CMakeFiles/data_structure.dir/build.make
 data_structure: CMakeFiles/data_structure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking C executable data_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable data_structure"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_structure.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -446,6 +461,6 @@ CMakeFiles/data_structure.dir/clean:
 .PHONY : CMakeFiles/data_structure.dir/clean
 
 CMakeFiles/data_structure.dir/depend:
-	cd /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug /home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/data_structure.dir/depend
 
