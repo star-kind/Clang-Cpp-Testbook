@@ -8,157 +8,165 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
+				<Option working_dir="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="data_structure">
-				<Option output="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/data_structure.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure"/>
-					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="data_structure/fast">
-				<Option output="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/data_structure.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Programs/MING-GW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure/fast"/>
-					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
+				<Option working_dir="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Programs/MING-GW64/mingw64/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structure">
+				<Option output="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/data_structure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_structure/fast">
+				<Option output="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/data_structure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_structure/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/main.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/main.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/double-direction/demonstrate.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/double-direction/demonstrate.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_repeat_s_d.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_from_bottom.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_from_bottom.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_middle_node_s_d.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/find_middle_node_s_d.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_seq.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/merge_single_direction.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/reverse_single_direction.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/sequence/sequence_table.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_dire_list.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_dire_list.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_direction_1.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/single-direction/single_list_demo.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/matrix-array/snake_matrix.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/double-direction-queue/case.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/decimal_conversion_binary.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/practice/determine_palindrome.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/circulate_queue2.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/linked_stack.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/queue/link_queue.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/linked_stack.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack2.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/clang/string/brute_force_algorithm.c">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack2.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/clang/string/brute_force_algorithm.c">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/linear-tbl/linear_declaration.h">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/src/main/header/string-practise/index.h">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/matrix-array/index.h">
 			<Option target="data_structure"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Clang-Cpp-Testbook/data-structure/CMakeLists.txt">
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/stack-queue/stack_queue_decl.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/src/main/header/string-practise/index.h">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="/home/ruler/main/workspace/Clang-Cpp-Testbook/data-structure/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

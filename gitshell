@@ -4,7 +4,7 @@ git add .
 
 git commit -m "first commit"
 
-git remote add origin https://gitee.com/yuanjingpeng/clang-cpp.git
+git remote add origin https://github.com/star-kind/Clang-Cpp-Testbook.git
 
 //git pull origin master
 

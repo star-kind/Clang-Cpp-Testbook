@@ -7,7 +7,7 @@ typedef struct {
 
 /**
  * find sub's location that first time appears after pos char in major string major<br>
- * sub:sub string(not empty), length of major string stored in structure, 1 =< pos =< major.length
+ * sub:sub string(not empty), length of major string stored in structure, 0 <pos< major.length
  * @param major
  * @param sub
  * @param pos
@@ -17,7 +17,7 @@ int brute_force_core(string_structure major, string_structure sub, int pos) {
     int j = 0, sum = 0;
     int res = 0;
 
-    while (pos < major.length && j < sub.length) {//TODO --
+    while (pos < major.length && j < sub.length) {
         sum++;
         if (*(major.ch + pos) == *(sub.ch + j)) {
             pos++;
