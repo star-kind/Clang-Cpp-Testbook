@@ -8,7 +8,8 @@ CMakeFiles/data_structure.dir/main.c.o: \
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o: \
  ../src/main/clang/linear-table/double-direction/demonstrate.c \
  ../src/main/header/base/base.h \
@@ -16,7 +17,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demon
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o: \
  ../src/main/clang/linear-table/practise/del_duplicate_ele.c \
  ../src/main/header/base/base.h \
@@ -24,7 +26,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.o: \
  ../src/main/clang/linear-table/practise/del_repeat_s_d.c \
  ../src/main/header/base/base.h \
@@ -32,7 +35,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bottom.c.o: \
  ../src/main/clang/linear-table/practise/find_from_bottom.c \
  ../src/main/header/base/base.h \
@@ -40,7 +44,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_from_bot
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_node_s_d.c.o: \
  ../src/main/clang/linear-table/practise/find_middle_node_s_d.c \
  ../src/main/header/base/base.h \
@@ -48,7 +53,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/find_middle_n
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o: \
  ../src/main/clang/linear-table/practise/merge_seq.c \
  ../src/main/header/base/base.h \
@@ -56,7 +62,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_seq.c.o
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_direction.c.o: \
  ../src/main/clang/linear-table/practise/merge_single_direction.c \
  ../src/main/header/base/base.h \
@@ -64,7 +71,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/merge_single_
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_single_direction.c.o: \
  ../src/main/clang/linear-table/practise/reverse_single_direction.c \
  ../src/main/header/base/base.h \
@@ -72,7 +80,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/reverse_singl
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_table.c.o: \
  ../src/main/clang/linear-table/sequence/sequence_table.c \
  ../src/main/header/base/base.h \
@@ -80,7 +89,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/sequence/sequence_tabl
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_dire_list.c.o: \
  ../src/main/clang/linear-table/single-direction/single_dire_list.c \
  ../src/main/header/base/base.h \
@@ -88,7 +98,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/singl
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction.c.o: \
  ../src/main/clang/linear-table/single-direction/single_direction.c \
  ../src/main/header/base/base.h \
@@ -96,7 +107,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/singl
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_direction_1.c.o: \
  ../src/main/clang/linear-table/single-direction/single_direction_1.c \
  ../src/main/header/base/base.h \
@@ -104,7 +116,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/singl
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/single_list_demo.c.o: \
  ../src/main/clang/linear-table/single-direction/single_list_demo.c \
  ../src/main/header/base/base.h \
@@ -112,7 +125,8 @@ CMakeFiles/data_structure.dir/src/main/clang/linear-table/single-direction/singl
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o: \
  ../src/main/clang/matrix-array/snake_matrix.c \
  ../src/main/header/base/base.h \
@@ -120,7 +134,8 @@ CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o: \
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/case.c.o: \
  ../src/main/clang/stack-queue/double-direction-queue/case.c \
  ../src/main/header/base/base.h \
@@ -128,7 +143,8 @@ CMakeFiles/data_structure.dir/src/main/clang/stack-queue/double-direction-queue/
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conversion_binary.c.o: \
  ../src/main/clang/stack-queue/practice/decimal_conversion_binary.c \
  ../src/main/header/base/base.h \
@@ -136,7 +152,8 @@ CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/decimal_conver
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_palindrome.c.o: \
  ../src/main/clang/stack-queue/practice/determine_palindrome.c \
  ../src/main/header/base/base.h \
@@ -144,7 +161,8 @@ CMakeFiles/data_structure.dir/src/main/clang/stack-queue/practice/determine_pali
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.c.o: \
  ../src/main/clang/stack-queue/queue/circulate_queue2.c \
  ../src/main/header/base/base.h \
@@ -152,7 +170,8 @@ CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/circulate_queue2.
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.o: \
  ../src/main/clang/stack-queue/queue/link_queue.c \
  ../src/main/header/base/base.h \
@@ -160,7 +179,8 @@ CMakeFiles/data_structure.dir/src/main/clang/stack-queue/queue/link_queue.c.o: \
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.o: \
  ../src/main/clang/stack-queue/stack/linked_stack.c \
  ../src/main/header/base/base.h \
@@ -168,7 +188,8 @@ CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/linked_stack.c.o:
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.o: \
  ../src/main/clang/stack-queue/stack/sequence_stack.c \
  ../src/main/header/base/base.h \
@@ -176,7 +197,8 @@ CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.o: \
  ../src/main/clang/stack-queue/stack/sequence_stack2.c \
  ../src/main/header/base/base.h \
@@ -184,7 +206,8 @@ CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o: \
  ../src/main/clang/string/brute_force_algorithm.c \
  ../src/main/header/base/base.h \
@@ -192,4 +215,14 @@ CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o: \
  ../src/main/header/linear-tbl/linear_declaration.h \
  ../src/main/header/matrix-array/matrix_index.h \
  ../src/main/header/stack-queue/stack_queue_decl.h \
- ../src/main/header/string-practise/index.h
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
+CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.o: \
+ ../src/main/clang/tree/binary_tree_example.c \
+ ../src/main/header/base/base.h \
+ ../src/main/header/exports_declaration.h \
+ ../src/main/header/linear-tbl/linear_declaration.h \
+ ../src/main/header/matrix-array/matrix_index.h \
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h

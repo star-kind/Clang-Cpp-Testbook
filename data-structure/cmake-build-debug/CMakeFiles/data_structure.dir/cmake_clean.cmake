@@ -23,7 +23,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o"
-  "CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.o"
+  "CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.o"
   "data_structure"
   "data_structure.pdb"
 )

@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/162/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/fj/admin/softwares/clion-2021.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/162/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/fj/admin/softwares/clion-2021.2/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure
+CMAKE_SOURCE_DIR = /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cm
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/162/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/fj/admin/softwares/clion-2021.2/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/162/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/fj/admin/softwares/clion-2021.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -705,29 +705,29 @@ src/main/clang/string/brute_force_algorithm.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.s
 .PHONY : src/main/clang/string/brute_force_algorithm.c.s
 
-src/main/clang/tree/binary_tree.o: src/main/clang/tree/binary_tree.c.o
-.PHONY : src/main/clang/tree/binary_tree.o
+src/main/clang/tree/binary_tree_example.o: src/main/clang/tree/binary_tree_example.c.o
+.PHONY : src/main/clang/tree/binary_tree_example.o
 
 # target to build an object file
-src/main/clang/tree/binary_tree.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.o
-.PHONY : src/main/clang/tree/binary_tree.c.o
+src/main/clang/tree/binary_tree_example.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.o
+.PHONY : src/main/clang/tree/binary_tree_example.c.o
 
-src/main/clang/tree/binary_tree.i: src/main/clang/tree/binary_tree.c.i
-.PHONY : src/main/clang/tree/binary_tree.i
+src/main/clang/tree/binary_tree_example.i: src/main/clang/tree/binary_tree_example.c.i
+.PHONY : src/main/clang/tree/binary_tree_example.i
 
 # target to preprocess a source file
-src/main/clang/tree/binary_tree.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.i
-.PHONY : src/main/clang/tree/binary_tree.c.i
+src/main/clang/tree/binary_tree_example.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.i
+.PHONY : src/main/clang/tree/binary_tree_example.c.i
 
-src/main/clang/tree/binary_tree.s: src/main/clang/tree/binary_tree.c.s
-.PHONY : src/main/clang/tree/binary_tree.s
+src/main/clang/tree/binary_tree_example.s: src/main/clang/tree/binary_tree_example.c.s
+.PHONY : src/main/clang/tree/binary_tree_example.s
 
 # target to generate assembly for a file
-src/main/clang/tree/binary_tree.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree.c.s
-.PHONY : src/main/clang/tree/binary_tree.c.s
+src/main/clang/tree/binary_tree_example.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.s
+.PHONY : src/main/clang/tree/binary_tree_example.c.s
 
 # Help Target
 help:
@@ -810,9 +810,9 @@ help:
 	@echo "... src/main/clang/string/brute_force_algorithm.o"
 	@echo "... src/main/clang/string/brute_force_algorithm.i"
 	@echo "... src/main/clang/string/brute_force_algorithm.s"
-	@echo "... src/main/clang/tree/binary_tree.o"
-	@echo "... src/main/clang/tree/binary_tree.i"
-	@echo "... src/main/clang/tree/binary_tree.s"
+	@echo "... src/main/clang/tree/binary_tree_example.o"
+	@echo "... src/main/clang/tree/binary_tree_example.i"
+	@echo "... src/main/clang/tree/binary_tree_example.s"
 .PHONY : help
 
 

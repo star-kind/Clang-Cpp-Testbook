@@ -1,6 +1,6 @@
 #include "./src/main/header/exports_declaration.h"
 
 int main() {
-    snake_matrix_export();
+    binary_tree_example_export();
     return 0;
 }

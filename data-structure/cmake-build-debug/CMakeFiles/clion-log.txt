@@ -1,4 +1,4 @@
-/snap/clion/162/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure
+/home/fj/admin/softwares/clion-2021.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/jq/admin/workspace/Clang-Cpp-Testbook/data-structure/cmake-build-debug
+-- Build files have been written to: /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug
