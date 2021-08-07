@@ -34,10 +34,9 @@ void previous_order_tree_ergodic(bt_ptr btPtr) {
     if (btPtr == NULL) {
         return;
     }
-    printf("%c", btPtr->data);
+    printf("%c  ", btPtr->data);
     previous_order_tree_ergodic(btPtr->left_child);
     previous_order_tree_ergodic(btPtr->right_child);
-    printf("\n\r");
 }
 
 void binary_tree_example_export() {
