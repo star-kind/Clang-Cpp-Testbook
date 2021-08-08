@@ -729,6 +729,30 @@ src/main/clang/tree/binary_tree_example.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.s
 .PHONY : src/main/clang/tree/binary_tree_example.c.s
 
+src/main/clang/tree/str_to_tree.o: src/main/clang/tree/str_to_tree.c.o
+.PHONY : src/main/clang/tree/str_to_tree.o
+
+# target to build an object file
+src/main/clang/tree/str_to_tree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/str_to_tree.c.o
+.PHONY : src/main/clang/tree/str_to_tree.c.o
+
+src/main/clang/tree/str_to_tree.i: src/main/clang/tree/str_to_tree.c.i
+.PHONY : src/main/clang/tree/str_to_tree.i
+
+# target to preprocess a source file
+src/main/clang/tree/str_to_tree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/str_to_tree.c.i
+.PHONY : src/main/clang/tree/str_to_tree.c.i
+
+src/main/clang/tree/str_to_tree.s: src/main/clang/tree/str_to_tree.c.s
+.PHONY : src/main/clang/tree/str_to_tree.s
+
+# target to generate assembly for a file
+src/main/clang/tree/str_to_tree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/tree/str_to_tree.c.s
+.PHONY : src/main/clang/tree/str_to_tree.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -813,6 +837,9 @@ help:
 	@echo "... src/main/clang/tree/binary_tree_example.o"
 	@echo "... src/main/clang/tree/binary_tree_example.i"
 	@echo "... src/main/clang/tree/binary_tree_example.s"
+	@echo "... src/main/clang/tree/str_to_tree.o"
+	@echo "... src/main/clang/tree/str_to_tree.i"
+	@echo "... src/main/clang/tree/str_to_tree.s"
 .PHONY : help
 
 

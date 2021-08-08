@@ -13,9 +13,8 @@ bt_ptr creates_binary_tree(bt_ptr t) {
     char data;
     scanf("%c", &data);
 
-    if (data == '#') {//TODO
+    if (data == '#') {
         t = NULL;
-        return t;//return the address
     } else {
         t = (bt_ptr) malloc(sizeof(BT));
         if (t == NULL) {
@@ -26,8 +25,9 @@ bt_ptr creates_binary_tree(bt_ptr t) {
         //recurrence
         t->left_child = creates_binary_tree(t->left_child);
         t->right_child = creates_binary_tree(t->right_child);
-        return t;//return address of address
     }
+
+    return t;//return address of address
 }
 
 void previous_order_tree_ergodic(bt_ptr btPtr) {
@@ -44,5 +44,6 @@ void binary_tree_example_export() {
 
     printf("please enter some series character:\n\r");
     head = creates_binary_tree(head);
+
     previous_order_tree_ergodic(head);
 }

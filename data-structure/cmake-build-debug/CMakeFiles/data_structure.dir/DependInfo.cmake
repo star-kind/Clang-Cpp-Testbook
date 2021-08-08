@@ -33,6 +33,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/clang/stack-queue/stack/sequence_stack2.c" "/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/stack-queue/stack/sequence_stack2.c.o"
   "/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/clang/string/brute_force_algorithm.c" "/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o"
   "/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/binary_tree_example.c" "/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.o"
+  "/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/str_to_tree.c" "/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/tree/str_to_tree.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

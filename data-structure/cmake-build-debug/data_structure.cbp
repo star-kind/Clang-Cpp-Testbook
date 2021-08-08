@@ -151,6 +151,9 @@
 		<Unit filename="/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/binary_tree_example.c">
 			<Option target="data_structure"/>
 		</Unit>
+		<Unit filename="/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/str_to_tree.c">
+			<Option target="data_structure"/>
+		</Unit>
 		<Unit filename="/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/base/base.h">
 			<Option target="data_structure"/>
 		</Unit>

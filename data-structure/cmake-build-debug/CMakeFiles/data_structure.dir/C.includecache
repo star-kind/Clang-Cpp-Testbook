@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/binary_tree_example.c
+/home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/str_to_tree.c
 ../../header/exports_declaration.h
 /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
 
