@@ -217,6 +217,15 @@ CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_algorithm.c.o: \
  ../src/main/header/stack-queue/stack_queue_decl.h \
  ../src/main/header/string-practise/index.h \
  ../src/main/header/tree-header/tree_index.h
+CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_case.c.o: \
+ ../src/main/clang/tree/binary_tree_case.c \
+ ../src/main/header/base/base.h \
+ ../src/main/header/exports_declaration.h \
+ ../src/main/header/linear-tbl/linear_declaration.h \
+ ../src/main/header/matrix-array/matrix_index.h \
+ ../src/main/header/stack-queue/stack_queue_decl.h \
+ ../src/main/header/string-practise/index.h \
+ ../src/main/header/tree-header/tree_index.h
 CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.o: \
  ../src/main/clang/tree/binary_tree_example.c \
  ../src/main/header/base/base.h \

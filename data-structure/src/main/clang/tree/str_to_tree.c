@@ -5,7 +5,7 @@ typedef struct BINARY_TREE_STRUCTURE {
     struct BINARY_TREE_STRUCTURE *left, *right;
 } bin_tree;
 
-bin_tree * initiate_tree(bin_tree *bt) {
+bin_tree *initiate_tree(bin_tree *bt) {
     bt = (bin_tree *) malloc(sizeof(bin_tree));
 
     if (bt == NULL) {
