@@ -57,10 +57,10 @@ RM = /home/fj/admin/softwares/clion-2021.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure
+CMAKE_SOURCE_DIR = /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fj/admin/workspaces/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,30 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/main.c.s
 .PHONY : main.c.s
+
+src/main/clang/graph/matrix_type.o: src/main/clang/graph/matrix_type.c.o
+.PHONY : src/main/clang/graph/matrix_type.o
+
+# target to build an object file
+src/main/clang/graph/matrix_type.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o
+.PHONY : src/main/clang/graph/matrix_type.c.o
+
+src/main/clang/graph/matrix_type.i: src/main/clang/graph/matrix_type.c.i
+.PHONY : src/main/clang/graph/matrix_type.i
+
+# target to preprocess a source file
+src/main/clang/graph/matrix_type.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.i
+.PHONY : src/main/clang/graph/matrix_type.c.i
+
+src/main/clang/graph/matrix_type.s: src/main/clang/graph/matrix_type.c.s
+.PHONY : src/main/clang/graph/matrix_type.s
+
+# target to generate assembly for a file
+src/main/clang/graph/matrix_type.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.s
+.PHONY : src/main/clang/graph/matrix_type.c.s
 
 src/main/clang/linear-table/double-direction/demonstrate.o: src/main/clang/linear-table/double-direction/demonstrate.c.o
 .PHONY : src/main/clang/linear-table/double-direction/demonstrate.o
@@ -765,6 +789,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/main/clang/graph/matrix_type.o"
+	@echo "... src/main/clang/graph/matrix_type.i"
+	@echo "... src/main/clang/graph/matrix_type.s"
 	@echo "... src/main/clang/linear-table/double-direction/demonstrate.o"
 	@echo "... src/main/clang/linear-table/double-direction/demonstrate.i"
 	@echo "... src/main/clang/linear-table/double-direction/demonstrate.s"

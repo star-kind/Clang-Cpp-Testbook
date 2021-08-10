@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/main.c.o"
+  "CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.o"
