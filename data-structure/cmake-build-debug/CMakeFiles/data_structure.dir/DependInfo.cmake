@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/main.c" "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/main.c.o"
+  "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_example.c" "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o"
   "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_type.c" "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o"
   "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/double-direction/demonstrate.c" "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o"
   "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/linear-table/practise/del_duplicate_ele.c" "/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o"

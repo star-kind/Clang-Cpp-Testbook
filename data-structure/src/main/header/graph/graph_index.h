@@ -5,4 +5,6 @@
 
 void matrix_graph_exp();
 
+void matrix_operate_exp();
+
 #endif //DATA_STRUCTURE_GRAPH_INDEX_H

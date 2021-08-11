@@ -63,12 +63,9 @@ void creates_graph(graph_pt gr) {
 }
 
 void matrix_graph_exp() {
-//    graph gr1;
-
     graph_pt gpt;
     gpt = (graph_pt) malloc(sizeof(graph_pt));
 
     creates_graph(gpt);
-//    creates_graph(&gr1);
 }
 
