@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/main.c.o"
+  "CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o"

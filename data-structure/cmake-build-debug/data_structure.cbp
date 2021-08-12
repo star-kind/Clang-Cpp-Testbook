@@ -79,6 +79,9 @@
 		<Unit filename="/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/main.c">
 			<Option target="data_structure"/>
 		</Unit>
+		<Unit filename="/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_tbl_1.c">
+			<Option target="data_structure"/>
+		</Unit>
 		<Unit filename="/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_example.c">
 			<Option target="data_structure"/>
 		</Unit>

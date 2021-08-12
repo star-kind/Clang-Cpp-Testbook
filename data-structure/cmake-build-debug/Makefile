@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/main.c.s
 .PHONY : main.c.s
 
+src/main/clang/graph/graph_tbl_1.o: src/main/clang/graph/graph_tbl_1.c.o
+.PHONY : src/main/clang/graph/graph_tbl_1.o
+
+# target to build an object file
+src/main/clang/graph/graph_tbl_1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o
+.PHONY : src/main/clang/graph/graph_tbl_1.c.o
+
+src/main/clang/graph/graph_tbl_1.i: src/main/clang/graph/graph_tbl_1.c.i
+.PHONY : src/main/clang/graph/graph_tbl_1.i
+
+# target to preprocess a source file
+src/main/clang/graph/graph_tbl_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.i
+.PHONY : src/main/clang/graph/graph_tbl_1.c.i
+
+src/main/clang/graph/graph_tbl_1.s: src/main/clang/graph/graph_tbl_1.c.s
+.PHONY : src/main/clang/graph/graph_tbl_1.s
+
+# target to generate assembly for a file
+src/main/clang/graph/graph_tbl_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.s
+.PHONY : src/main/clang/graph/graph_tbl_1.c.s
+
 src/main/clang/graph/matrix_example.o: src/main/clang/graph/matrix_example.c.o
 .PHONY : src/main/clang/graph/matrix_example.o
 
@@ -813,6 +837,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/main/clang/graph/graph_tbl_1.o"
+	@echo "... src/main/clang/graph/graph_tbl_1.i"
+	@echo "... src/main/clang/graph/graph_tbl_1.s"
 	@echo "... src/main/clang/graph/matrix_example.o"
 	@echo "... src/main/clang/graph/matrix_example.i"
 	@echo "... src/main/clang/graph/matrix_example.s"

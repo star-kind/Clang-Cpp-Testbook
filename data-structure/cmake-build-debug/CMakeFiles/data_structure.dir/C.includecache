@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_tbl_1.c
+./../../header/exports_declaration.h
+/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
+
 /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_example.c
 ./../../header/exports_declaration.h
 /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/header/exports_declaration.h
