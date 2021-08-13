@@ -1,6 +1,6 @@
 #include "./src/main/header/exports_declaration.h"
 
 int main() {
-    matrix_operate_exp();
+    graph_table_exp();
     return 0;
 }

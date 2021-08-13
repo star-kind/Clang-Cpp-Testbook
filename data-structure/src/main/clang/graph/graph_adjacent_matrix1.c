@@ -9,7 +9,7 @@ typedef struct GRAPH_STRUCTURE {
     int relation_matrix[maxLength][maxLength];
 } *graph_pointer, graph;
 
-int get_index_by_element(int *arr_name, int num) {
+int getElementIndex(int *arr_name, int num) {
     int i = 0, j = 0;
     int k = -1;
 
@@ -39,8 +39,8 @@ void product_graph_2(int vertex_amount, int edge_amount, graph *g, int *vertex_p
     for (i = 0; i < edge_amount; i++) {
         printf("please input the two vertex that interconnection at No-%d line(Vi,Vj): ", i + 1);
         scanf("%d%d", &k, &m);
-        k_index = get_index_by_element(vertex_point_arr, k);
-        m_index = get_index_by_element(vertex_point_arr, m);
+        k_index = getElementIndex(vertex_point_arr, k);
+        m_index = getElementIndex(vertex_point_arr, m);
         //if they already connect,set the relationship become 1
         g->relation_matrix[k_index][m_index] = g->relation_matrix[m_index][k_index] = 1;
     }
