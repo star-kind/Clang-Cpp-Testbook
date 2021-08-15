@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/main.c.o"
-  "CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o"
-  "CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o"
-  "CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o"
+  "CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.o"
+  "CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.o"
+  "CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.o"
+  "CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/double-direction/demonstrate.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_duplicate_ele.c.o"
   "CMakeFiles/data_structure.dir/src/main/clang/linear-table/practise/del_repeat_s_d.c.o"

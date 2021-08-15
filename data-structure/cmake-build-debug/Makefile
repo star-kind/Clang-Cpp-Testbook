@@ -153,77 +153,101 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/main.c.s
 .PHONY : main.c.s
 
-src/main/clang/graph/graph_tbl_1.o: src/main/clang/graph/graph_tbl_1.c.o
-.PHONY : src/main/clang/graph/graph_tbl_1.o
+src/main/clang/graph/graph_adj_matrix.o: src/main/clang/graph/graph_adj_matrix.c.o
+.PHONY : src/main/clang/graph/graph_adj_matrix.o
 
 # target to build an object file
-src/main/clang/graph/graph_tbl_1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o
-.PHONY : src/main/clang/graph/graph_tbl_1.c.o
+src/main/clang/graph/graph_adj_matrix.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.o
+.PHONY : src/main/clang/graph/graph_adj_matrix.c.o
 
-src/main/clang/graph/graph_tbl_1.i: src/main/clang/graph/graph_tbl_1.c.i
-.PHONY : src/main/clang/graph/graph_tbl_1.i
+src/main/clang/graph/graph_adj_matrix.i: src/main/clang/graph/graph_adj_matrix.c.i
+.PHONY : src/main/clang/graph/graph_adj_matrix.i
 
 # target to preprocess a source file
-src/main/clang/graph/graph_tbl_1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.i
-.PHONY : src/main/clang/graph/graph_tbl_1.c.i
+src/main/clang/graph/graph_adj_matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.i
+.PHONY : src/main/clang/graph/graph_adj_matrix.c.i
 
-src/main/clang/graph/graph_tbl_1.s: src/main/clang/graph/graph_tbl_1.c.s
-.PHONY : src/main/clang/graph/graph_tbl_1.s
+src/main/clang/graph/graph_adj_matrix.s: src/main/clang/graph/graph_adj_matrix.c.s
+.PHONY : src/main/clang/graph/graph_adj_matrix.s
 
 # target to generate assembly for a file
-src/main/clang/graph/graph_tbl_1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.s
-.PHONY : src/main/clang/graph/graph_tbl_1.c.s
+src/main/clang/graph/graph_adj_matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.s
+.PHONY : src/main/clang/graph/graph_adj_matrix.c.s
 
-src/main/clang/graph/matrix_example.o: src/main/clang/graph/matrix_example.c.o
-.PHONY : src/main/clang/graph/matrix_example.o
+src/main/clang/graph/graph_adjacent_list.o: src/main/clang/graph/graph_adjacent_list.c.o
+.PHONY : src/main/clang/graph/graph_adjacent_list.o
 
 # target to build an object file
-src/main/clang/graph/matrix_example.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o
-.PHONY : src/main/clang/graph/matrix_example.c.o
+src/main/clang/graph/graph_adjacent_list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.o
+.PHONY : src/main/clang/graph/graph_adjacent_list.c.o
 
-src/main/clang/graph/matrix_example.i: src/main/clang/graph/matrix_example.c.i
-.PHONY : src/main/clang/graph/matrix_example.i
+src/main/clang/graph/graph_adjacent_list.i: src/main/clang/graph/graph_adjacent_list.c.i
+.PHONY : src/main/clang/graph/graph_adjacent_list.i
 
 # target to preprocess a source file
-src/main/clang/graph/matrix_example.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.i
-.PHONY : src/main/clang/graph/matrix_example.c.i
+src/main/clang/graph/graph_adjacent_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.i
+.PHONY : src/main/clang/graph/graph_adjacent_list.c.i
 
-src/main/clang/graph/matrix_example.s: src/main/clang/graph/matrix_example.c.s
-.PHONY : src/main/clang/graph/matrix_example.s
+src/main/clang/graph/graph_adjacent_list.s: src/main/clang/graph/graph_adjacent_list.c.s
+.PHONY : src/main/clang/graph/graph_adjacent_list.s
 
 # target to generate assembly for a file
-src/main/clang/graph/matrix_example.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.s
-.PHONY : src/main/clang/graph/matrix_example.c.s
+src/main/clang/graph/graph_adjacent_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.s
+.PHONY : src/main/clang/graph/graph_adjacent_list.c.s
 
-src/main/clang/graph/matrix_type.o: src/main/clang/graph/matrix_type.c.o
-.PHONY : src/main/clang/graph/matrix_type.o
+src/main/clang/graph/graph_adjacent_matrix.o: src/main/clang/graph/graph_adjacent_matrix.c.o
+.PHONY : src/main/clang/graph/graph_adjacent_matrix.o
 
 # target to build an object file
-src/main/clang/graph/matrix_type.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o
-.PHONY : src/main/clang/graph/matrix_type.c.o
+src/main/clang/graph/graph_adjacent_matrix.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.o
+.PHONY : src/main/clang/graph/graph_adjacent_matrix.c.o
 
-src/main/clang/graph/matrix_type.i: src/main/clang/graph/matrix_type.c.i
-.PHONY : src/main/clang/graph/matrix_type.i
+src/main/clang/graph/graph_adjacent_matrix.i: src/main/clang/graph/graph_adjacent_matrix.c.i
+.PHONY : src/main/clang/graph/graph_adjacent_matrix.i
 
 # target to preprocess a source file
-src/main/clang/graph/matrix_type.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.i
-.PHONY : src/main/clang/graph/matrix_type.c.i
+src/main/clang/graph/graph_adjacent_matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.i
+.PHONY : src/main/clang/graph/graph_adjacent_matrix.c.i
 
-src/main/clang/graph/matrix_type.s: src/main/clang/graph/matrix_type.c.s
-.PHONY : src/main/clang/graph/matrix_type.s
+src/main/clang/graph/graph_adjacent_matrix.s: src/main/clang/graph/graph_adjacent_matrix.c.s
+.PHONY : src/main/clang/graph/graph_adjacent_matrix.s
 
 # target to generate assembly for a file
-src/main/clang/graph/matrix_type.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.s
-.PHONY : src/main/clang/graph/matrix_type.c.s
+src/main/clang/graph/graph_adjacent_matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.s
+.PHONY : src/main/clang/graph/graph_adjacent_matrix.c.s
+
+src/main/clang/graph/graph_adjacent_matrix1.o: src/main/clang/graph/graph_adjacent_matrix1.c.o
+.PHONY : src/main/clang/graph/graph_adjacent_matrix1.o
+
+# target to build an object file
+src/main/clang/graph/graph_adjacent_matrix1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.o
+.PHONY : src/main/clang/graph/graph_adjacent_matrix1.c.o
+
+src/main/clang/graph/graph_adjacent_matrix1.i: src/main/clang/graph/graph_adjacent_matrix1.c.i
+.PHONY : src/main/clang/graph/graph_adjacent_matrix1.i
+
+# target to preprocess a source file
+src/main/clang/graph/graph_adjacent_matrix1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.i
+.PHONY : src/main/clang/graph/graph_adjacent_matrix1.c.i
+
+src/main/clang/graph/graph_adjacent_matrix1.s: src/main/clang/graph/graph_adjacent_matrix1.c.s
+.PHONY : src/main/clang/graph/graph_adjacent_matrix1.s
+
+# target to generate assembly for a file
+src/main/clang/graph/graph_adjacent_matrix1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.s
+.PHONY : src/main/clang/graph/graph_adjacent_matrix1.c.s
 
 src/main/clang/linear-table/double-direction/demonstrate.o: src/main/clang/linear-table/double-direction/demonstrate.c.o
 .PHONY : src/main/clang/linear-table/double-direction/demonstrate.o
@@ -837,15 +861,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/main/clang/graph/graph_tbl_1.o"
-	@echo "... src/main/clang/graph/graph_tbl_1.i"
-	@echo "... src/main/clang/graph/graph_tbl_1.s"
-	@echo "... src/main/clang/graph/matrix_example.o"
-	@echo "... src/main/clang/graph/matrix_example.i"
-	@echo "... src/main/clang/graph/matrix_example.s"
-	@echo "... src/main/clang/graph/matrix_type.o"
-	@echo "... src/main/clang/graph/matrix_type.i"
-	@echo "... src/main/clang/graph/matrix_type.s"
+	@echo "... src/main/clang/graph/graph_adj_matrix.o"
+	@echo "... src/main/clang/graph/graph_adj_matrix.i"
+	@echo "... src/main/clang/graph/graph_adj_matrix.s"
+	@echo "... src/main/clang/graph/graph_adjacent_list.o"
+	@echo "... src/main/clang/graph/graph_adjacent_list.i"
+	@echo "... src/main/clang/graph/graph_adjacent_list.s"
+	@echo "... src/main/clang/graph/graph_adjacent_matrix.o"
+	@echo "... src/main/clang/graph/graph_adjacent_matrix.i"
+	@echo "... src/main/clang/graph/graph_adjacent_matrix.s"
+	@echo "... src/main/clang/graph/graph_adjacent_matrix1.o"
+	@echo "... src/main/clang/graph/graph_adjacent_matrix1.i"
+	@echo "... src/main/clang/graph/graph_adjacent_matrix1.s"
 	@echo "... src/main/clang/linear-table/double-direction/demonstrate.o"
 	@echo "... src/main/clang/linear-table/double-direction/demonstrate.i"
 	@echo "... src/main/clang/linear-table/double-direction/demonstrate.s"

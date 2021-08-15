@@ -18,7 +18,7 @@ typedef struct GRAPH_POINT {
      * value of vertex point
      */
     int vertex_point;
-//    struct graph_line *next;
+
     struct GRAPH_LINE *next;
 } graph_point;
 

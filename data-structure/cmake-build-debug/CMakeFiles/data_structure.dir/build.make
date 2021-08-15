@@ -404,44 +404,57 @@ CMakeFiles/data_structure.dir/src/main/clang/tree/str_to_tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/tree/str_to_tree.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/tree/str_to_tree.c -o CMakeFiles/data_structure.dir/src/main/clang/tree/str_to_tree.c.s
 
-CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o: CMakeFiles/data_structure.dir/flags.make
-CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o: ../src/main/clang/graph/matrix_type.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o -c /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_type.c
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.o: ../src/main/clang/graph/graph_adjacent_matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.o -c /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adjacent_matrix.c
 
-CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_type.c > CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.i
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adjacent_matrix.c > CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.i
 
-CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_type.c -o CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.s
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adjacent_matrix.c -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.s
 
-CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o: CMakeFiles/data_structure.dir/flags.make
-CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o: ../src/main/clang/graph/matrix_example.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o -c /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_example.c
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.o: ../src/main/clang/graph/graph_adjacent_matrix1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.o -c /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adjacent_matrix1.c
 
-CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_example.c > CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.i
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adjacent_matrix1.c > CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.i
 
-CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/matrix_example.c -o CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.s
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adjacent_matrix1.c -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.s
 
-CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o: CMakeFiles/data_structure.dir/flags.make
-CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o: ../src/main/clang/graph/graph_tbl_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o -c /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_tbl_1.c
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.o: ../src/main/clang/graph/graph_adjacent_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.o -c /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adjacent_list.c
 
-CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_tbl_1.c > CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.i
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adjacent_list.c > CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.i
 
-CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_tbl_1.c -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.s
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adjacent_list.c -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.s
+
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.o: ../src/main/clang/graph/graph_adj_matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.o -c /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adj_matrix.c
+
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adj_matrix.c > CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.i
+
+CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/src/main/clang/graph/graph_adj_matrix.c -o CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.s
 
 # Object files for target data_structure
 data_structure_OBJECTS = \
@@ -471,9 +484,10 @@ data_structure_OBJECTS = \
 "CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o" \
 "CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.o" \
 "CMakeFiles/data_structure.dir/src/main/clang/tree/str_to_tree.c.o" \
-"CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o" \
-"CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o" \
-"CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o"
+"CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.o" \
+"CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.o" \
+"CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.o" \
+"CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.o"
 
 # External object files for target data_structure
 data_structure_EXTERNAL_OBJECTS =
@@ -504,12 +518,13 @@ data_structure: CMakeFiles/data_structure.dir/src/main/clang/string/brute_force_
 data_structure: CMakeFiles/data_structure.dir/src/main/clang/matrix-array/snake_matrix.c.o
 data_structure: CMakeFiles/data_structure.dir/src/main/clang/tree/binary_tree_example.c.o
 data_structure: CMakeFiles/data_structure.dir/src/main/clang/tree/str_to_tree.c.o
-data_structure: CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_type.c.o
-data_structure: CMakeFiles/data_structure.dir/src/main/clang/graph/matrix_example.c.o
-data_structure: CMakeFiles/data_structure.dir/src/main/clang/graph/graph_tbl_1.c.o
+data_structure: CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix.c.o
+data_structure: CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_matrix1.c.o
+data_structure: CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adjacent_list.c.o
+data_structure: CMakeFiles/data_structure.dir/src/main/clang/graph/graph_adj_matrix.c.o
 data_structure: CMakeFiles/data_structure.dir/build.make
 data_structure: CMakeFiles/data_structure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable data_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fj/admin/workspaces/clanguage/Clang-Cpp-Testbook/data-structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable data_structure"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_structure.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
